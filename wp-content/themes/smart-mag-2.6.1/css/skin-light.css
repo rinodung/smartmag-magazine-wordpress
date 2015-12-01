@@ -1,0 +1,83 @@
+/**
+ * =Light Skin - Relies on default CSS and overrides the rules. 
+ * ----------------------------------------------------------------------------
+ */
+ 
+.navigation { background-color: #f2f2f2; }
+
+.navigation.sticky { background: rgb(239,239,239); background: rgba(239,239,239, 0.9); }
+
+.navigation .menu > li:hover, .navigation .menu li li:hover, .navigation .menu li li.current-menu-item,
+.navigation .mega-menu .sub-nav li:hover, .navigation .menu .sub-nav li.current-menu-item { 
+	background-color: #ffffff; 
+}
+
+.navigation { border-color: #eee; }
+
+.navigation .menu > li li a, .navigation .mega-menu.links > li > a, .navigation .mega-menu.links > li li a,
+.mega-menu .posts-list .content, .navigation .mega-menu .sub-nav li a { border-color: #e0e0e0; }
+
+.mega-menu .heading, .navigation .mega-menu.links > li > a { border-color: #e0e0e0; }
+
+.navigation a, .mega-menu .heading, .mega-menu .featured h2 a, .tabbed .tabs-list a { color: #19232d; }
+
+.navigation .mega-menu, .navigation .menu ul { background-color: #fff; }
+
+.mega-menu .sub-nav { background: #f2f2f2; }
+
+.navigation .menu .user-login a, .navigation .menu .shopping-cart > a { 
+	background: #e6e6e6;
+}
+
+.navigation .menu > li > ul, .navigation .mega-menu {
+	-webkit-box-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:  0px 0px 4px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 799px) { 
+	
+	.navigation .menu > li:hover > a, .navigation .menu > .current-menu-item > a, 
+	.navigation .menu > .current-menu-parent > a { 
+		background-color: #f2f2f2; 
+	}
+	
+	.navigation .menu > li:hover > a, .navigation .menu > .current-menu-item > a, 
+	.navigation .menu > .current-menu-parent > a, .navigation .mega-menu.links > li:hover,
+	.navigation .menu > .current-menu-ancestor > a, .navigation .menu li.active { 
+		background-color: #ffffff; 
+	}
+	
+	.navigation .menu li a { border-color: #e0e0e0; } 
+	.navigation .mega-menu.links > li:hover { background-color: #fff; }
+	
+	.navigation .mobile .fa { color: #efefef; }	
+	.navigation .mobile .fa-search, .mobile .search .query, .mobile .searchform input, .mobile .searchform #s { color: inherit; }
+	.off-canvas .close .fa { border-color: #19232d; }
+}
+
+.breadcrumbs { background: #fbfbfb; }
+
+.main .sidebar .widgettitle, .tabbed .tabs-list { background: #f2f2f2; color: #19232d; } 
+
+.main-footer .widgettitle, .main-footer .posts-list .content { border-color: #d9d9d9; }
+
+.main-footer .posts-list time, .main-footer .posts-list .comments { color: #606569; }
+
+.main-footer .feedburner input { background: #ddd; color: inherit; }
+
+.main-footer { background-color: #f2f2f2; background-image: none; }
+
+.main-footer .widgettitle { color: #19232d; }
+
+.main-footer, .main-footer .widget { color: #2c3a49; }
+
+.main-footer .widget a { color: #19232d; }
+
+.lower-foot { background-color: #e3e3e3; }
+
+.lower-foot { color: #2c3a49; }
+
+.lower-foot a { color: #19232d; }
+
+

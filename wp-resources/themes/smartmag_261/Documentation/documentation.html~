@@ -1,0 +1,1604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SmartMag - Documentation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="theme-sphere.com">
+	
+	<!-- Le styles -->
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="assets/css/docs.css" rel="stylesheet">
+	<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+	
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<![endif]-->
+	
+	<style type="text/css">
+		body {
+			padding-top: 0;
+			line-height: 24px; 
+		}
+
+		h1, h2, h3, h4 { line-height: 60px; }
+		ul, ol, pre, dl, dd { margin-bottom: 1em; } 
+		
+		li, dt, dd { line-height: inherit; }
+
+		.bs-docs-sidenav a { color: #444; }
+		.container {
+			margin: 0;
+			margin-left: 350px; 
+			width: auto;
+			max-width: 1170px;
+		}
+		
+		.row { width: 100%; }
+		
+		.bs-docs-sidenav {
+			margin: 0 0;
+			padding: 0;
+			box-shadow: 0;
+			-webkit-box-shadow: 0;
+			left: 0;
+			top: 0;
+			right: auto;
+			bottom: 0;
+			left: 0;
+			background-color: #F8F5F5;
+			border-right: 1px solid #DDD7CC;
+			padding-top: 150px; 
+			position: fixed;
+			overflow-y: auto;
+		}
+		
+		.bs-docs-sidenav.affix { top: 0; }
+		.bs-docs-sidenav > li:first-child > a, .bs-docs-sidenav > li:last-child > a { border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; }
+		.bs-docs-sidenav > li > a { 
+			border-right: 0;
+			padding-left: 20px;
+			background: rgb(250, 250, 250);
+		}
+
+		section { padding-top: 150px; }
+		
+		section li {
+			padding: 2px;
+		}
+
+		.label { margin-right: 5px; }
+
+		.sc-sample {
+			max-height: 200px;
+			overflow: auto;
+		}
+
+		.logo {
+			margin-top: -120px;
+			margin-bottom: 30px;
+			margin-left: 15px;
+			font-size: 3em;
+		}
+
+		.about-online { 
+			position: fixed;
+			margin-left: 259px;
+			padding: 10px;
+			padding-left: 95px;
+			top: 0;
+			width: 100%;
+			display: none; 
+		}
+
+		.about-online a { font-weight: bold; color: #2c3e50; }
+		
+		::-webkit-scrollbar { width: 4px; }
+		::-webkit-scrollbar-track { background-color: #F8F5F5; }
+		::-webkit-scrollbar-thumb { background-color: #ece6da; }
+		
+		body::-webkit-scrollbar { width: 8px; } 
+
+	</style>
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar" data-offset-top="0">
+
+<div class="about-online btn-danger">WARNING: This documentation might be outdated. <a href="http://theme-sphere.com/smart-mag/documentation/">Click Here</a> to view the latest documentation.</div>
+
+	<div class="container">
+
+		<div class="bs-docs-sidebar">
+			
+			<ul class="nav nav-list bs-docs-sidenav">
+				<li><h1 class="logo">SmartMag.</h1></li>
+				<li><a href="#introduction">Introduction</a></li>
+				<li><a href="#installation">Installation</a></li>
+				<li><a href="#categories">Setup Categories</a></li>
+				<li><a href="#adding-posts">Adding Posts</a></li>
+				<li><a href="#creating-pages">Creating Pages</a></li>
+				<li><a href="#homepage-setup">Homepage Setup</a></li>
+				<li><a href="#setup-navigation">Setup Navigation</a></li>
+				<li><a href="#header-setup">Header &amp; Logo Setup</a></li>
+				<li><a href="#widgets">Sidebars &amp; Widgets</a></li>
+				<li><a href="#footer-setup">Footer Setup</a></li>
+				<li><a href="#style-typography">Color/Style &amp; Typography</a></li>
+				<li><a href="#other-settings">Slider &amp; Other Settings</a></li>
+				<li><a href="#internalization">Translation &amp; Internalization</a></li>
+				<li><a href="#customizations">Advanced Customizations</a></li>
+				<li><a href="#shortcodes">Shortcodes</a></li>
+				<li><a href="#bbpress">bbPress Setup</a></li>
+				<li><a href="#credits">Copyright &amp; Credits</a></li>
+			</ul>
+		</div>
+
+		<div class="row">
+
+			<div class="span9">
+
+
+				<section id="introduction">
+					<div class="page-header">
+						<h1>Welcome to SmartMag!</h1>
+					</div>
+
+					<h3>Thanks for Buying</h3>
+
+					<p>First of all, thank you for buying this theme. To make your experience pleasant, we've added as much info as needed in this documentation. If you're stuck with anything, please refer to support forums.</p>
+
+					<ul>
+						<li>Created By: ThemeSphere</li>
+						<li>Support Site: <a href="http://theme-sphere.com">ThemeSphere Forums</a></li>
+						<li>Twitter Updates: <a href="http://twitter.com/Theme_Sphere">@Theme_Sphere</a></li>
+						<li>Version: 1.5.2</li>
+
+					</ul>
+
+				</section>
+
+
+
+				<section id="installation">
+					<div class="page-header">
+						<h1>Installation</h1>
+					</div>
+
+
+					<p>There are two methods to install the theme. If the normal installation method (a) is not supported by your web host, you will have to use the alternate option (b).</p>
+
+					<h3>a. Normal Installation</h3>
+
+					<ol>
+						<li>Login to WordPress Admin and browse to <strong>Appearance > Themes.</strong></li>
+						<li>Click on the <strong>Add New Theme</strong> (or "Install Themes" tab for older versions) and click <strong>Upload</strong>.</li>
+						<li>Browse your computer to select "smartmag.zip" (it's in the zip file you downloaded from ThemeForest). Click <strong>"Install Now"</strong> button.</li>
+						<li>Once it's uploaded, click the <strong>Activate</strong> link.</li>
+					</ol>
+
+
+					<h3>b. FTP Installation (alternate method)</h3>
+
+
+					<ol>
+					<li>Use your FTP software to browse to <em>wp-content/themes</em> folder.</li>
+					<li>Extract <strong>smartmag.zip</strong> and upload the <strong>smart-mag</strong> folder.</li>
+					<li>Once it's uploaded, go to your WordPress Admin, browse to <strong>Appearance > Themes.</strong></li>
+					<li>Click the <strong>Activate</strong> link.</li>
+					</ol>
+
+
+					<p><span class="label label-warning">Important</span> After activation, you will be presented with several plugins that you <strong>have to activate</strong>. Do not 
+					forget to activate them all or not all of the theme features will be available.</p>
+
+					<p><span class="label label-info">Note</span> If you have existing content and featured images, you will have to install <a href="http://wordpress.org/plugins/regenerate-thumbnails/"><strong>Regenerate Thumbnails</strong></a> plugin and run it from <strong>Tools &gt; Regen. Thumbnails</strong>.</p>
+
+					<h3>Sample Content Import (optional)</h3>
+					
+					<p>We highly recommend <strong>against</strong> using this method in production. Please only use on a an extra copy for testing or experimenting. This method 
+					most likely will <storng>fail</storng> on shared web hosts. Uncheck "import attachments" option if it fails and try again.</p>
+					
+					<ol>
+						<li>Log into Admin and go to <strong>Tools &gt; Import &gt; WordPress</strong>.</li>
+						<li>Install the WordPress importer.</li>
+						<li>Select the smartmag-sample.xml (located in the main zip file in Sample Data folder) and upload it.</li>
+						<li>On the next screen, under Assign Authors, select or enter a new username for each author.</li>
+						<li><strong>Do NOT</strong> check "Download and import file attachments". It will just download placeholder images that you have to change anyways.</li>
+						<li>Please be patience as it will take quite some time. Do not interrupt it.</li>
+						<li>(optional) Once it's done, go to <strong>Appearance &gt; Menus &gt; Manage Locations</strong>. Select "Main Menu" next to "Main Navigation".</li>
+						<li>(optional) Go to <strong>Edit Menus</strong> on the same page, select "Main Menu (Main Navigation)" from menus to edit and click Select. Click to expand <strong>Features</strong> and select <strong>Mega Menu for Links</strong> under Mega Menu. You may do the same for categories like Entertainment but selecting "Category Mega Menu" instead.</li>
+						<li>(optional) Setup your homepage to "Main Homepage" by following the <a href="#homepage-setup">Homepage Setup</a> section.</li>
+						<li>All Done.</li>
+					</ol>
+					<p><span class="label label-warning">Warning</span> Please <strong>do not</strong> import content on a WordPress installation that already has a lot of content. Or the very least, make a backup first. A catastrophic mess can be created.</p>
+
+				</section>
+				
+				
+				
+				<section id="categories">
+					<div class="page-header">
+						<h1>Setup Categories</h1>
+					</div>
+					
+					<p>We prefer and recommend categories over tags, but if you wish to use tags, you can enable them from theme settings panel.</p>
+					<p>Setting up categories for this theme is no different than ordinary category setup in WordPress, however, we provide some additional layout settings.</p>
+					
+					<p>Go to <strong>Posts &gt; Categories</strong> and fill in the info required. To choose the correct layout, refer to the <a href="http://theme-sphere.com/smart-mag/">Demo</a>.</p>
+
+					<p><img src="assets/img/shots/category-options.png" alt="Category Options" class="img-polaroid" /></p>
+					
+					<h4 id="category-listing-style">Category Listing Style</h4>
+					
+					<p>There are 3 layout styles and 4 options to choose from: (click to view demo for more information on each style)</p>
+
+					<ol>
+
+						<li><a href="http://theme-sphere.com/smart-mag/category/entertainment/fashion/">Default Style</a>: This is the style you have chosen to be the default from Theme Settings. If you change the default from Theme Settings, 
+						the layout for this category will change too.</li>
+
+						<li><a href="http://theme-sphere.com/smart-mag/category/entertainment/fashion/">Modern Style - 2 Columns</a>: Shows the listing with a 2 column grid format. Recommended!</li>
+						
+						<li><a href="http://theme-sphere.com/smart-mag/category/world-news/movies/">Blog Style</a>: Shows category listing in a typical traditional blog layout.</li>
+
+						<li><a href="http://theme-sphere.com/smart-mag/category/cuisines/">Timeline</a>: Timeline is best left for categories where the post date/time and content is most essential.</li>
+						
+					</ol>
+					
+					
+					
+					<h4>Show Sidebar?</h4>
+						<p>This option allows you to set whether you would like to show the sidebar in the category listing or not.</p>
+						
+						<p><span class="label label-info">Note</span> It does not affect the <em>"single post"</em> view in the category. You can modify whether to show sidebar for a 
+						post or not for each post.</p> 
+
+					<h4>Featured Slider?</h4>
+						<p>SmartMag supports featured sliders for categories. There are two options here:</p>
+
+						<ol>
+							<li>Show Posts Marked for Featured Slider: This will show posts that have "Featured Slider Post?" checked.</li>
+							<li>Show Latest Posts: Show most recent posts in slider, ignoring "Featured Slider Post?" setting.</li>
+						</ol>
+
+					<h4>Category Color <small>&mdash; Optional</small></h4>
+						<p>SmartMag uses the category color to add an underline in the menu for the category. It's also used in homepage blocks for category headings and label colors.</p>
+					
+				</section>
+				
+				
+				<section id="adding-posts">
+				
+					<div class="page-header">
+						<h1>Adding Posts</h1>
+					</div>
+					
+					<p>Adding a new post is the same way as default WordPress installations, however, there are extra options that might need explaining.</p>
+					
+					<h3>Featured Image Size</h3>
+					
+						<p>While the theme can function without featured images, it's highly recommended that you add a featured image to each post. This not only makes your site/blog 
+						more lively but also improves user experience.</p>
+						
+						<p>To set the featured image, use the WordPress normal method.</p>
+						
+						<p><img src="assets/img/shots/set-featured.png" class="img-polaroid" /></p>
+						
+						<p><span class="label label-warning">Important</span> If you have existing content and featured images, you will have to install <a href="http://wordpress.org/plugins/regenerate-thumbnails/"><strong>Regenerate Thumbnails</strong></a> plugin and run it from <strong>Tools &gt; Regen. Thumbnails</strong>. Skipping this will make your existing images look out of proportions or stretched.</p>
+						
+						<h4>Recommended Image Size</h4>
+						
+							<p>Image size (dimensions) will depend on what type of layout you're using throughout your WordPress installation or per individual post basis. This image will not only be used on the post, but also on the category listing pages. </p>
+		
+							<ul>					
+								<li>Compatible with all layouts and default slider: <strong>1078x516 minimum</strong> (width x height).</li>
+								<li>If you don't use <strong>Full Width</strong> layout: <strong>702x336 minimum</strong>.</li>
+								<li>For posts that will only appears in homepage blocks and listings (no slider, no full-width): <strong>351x185 minimum</strong>.</li>
+							</ul>
+					
+							<p><span class="label label-info">Note</span> SmartMag uses WordPress's standard cropping and resizing method.</p> 
+
+							<p><span class="label label-info">About Retina</span> We recommended using images of double height and width to have even your content images appear sharp on high-res devices like iPad. Read more below.</p> 
+
+						<h4 id="about-retina">About Retina Images</h4>
+						
+						<p>Retina images are used for hi-definition / hight DPI screens such as iPad, Macbook Retina and so on. For these devices, you need to upload images twice the recommended dimensions above.</p>
+
+						<p>SmartMag, when activated, informs you to install a few plugins and one of them is <strong>WP Retina 2x</strong>. Assuming you had existing images that are large enough, you can convert them to retina images from Media &gt; Retina, after activating the plugin.</p>
+					
+					<h3>Supported Post Formats</h3>
+					
+						<p><img src="assets/img/shots/post-formats.png" class="img-polaroid" /></p>
+					
+						<h4>Video Format</h4>
+							
+							<p>Setup your post normally and set a featured image. Copy the embed code of the video from YouTube, Vimeo or any other site that gives you video embed codes.
+							Paste the code in the <strong>"Featured Video Code"</strong> box.
+							</p>
+							
+							<p><img src="assets/img/shots/featured-video.png" class="img-polaroid" /></p>
+							
+							<p><span class="label label-info">Note</span> Videos will be resized to fit the container so you can choose a larger embed format if the video site allows you to 
+							specify size/dimensions. </p> 
+						
+						
+						<h4 id="gallery-format">Gallery Format</h4>
+						
+							<p>SmartMag will automatically convert the <strong>first gallery</strong> inserted into a post to a gallery slider - granted "gallery" post format is checked. To use the gallery post format, same as every other post, set a featured image first.</p>
+							
+							<ol>
+								<li>Click <strong>Add Media</strong> button.</li>
+								<li>Click <strong>Create Gallery</strong>. Upload images or select from Media Library. Click <strong>Create a new gallery</strong>.</li>
+								<li>Click "Insert gallery".</li>
+								<li> (optional) If you wish to show thumbnails or create a static/non-slider gallery, set image captions and click <strong>Insert Gallery</strong>. 
+									Change post format to <strong>Standard</strong>.</li>		
+							</ol>
+
+							<p><span class="label label-info">Note</span> To create a tiled mosaic gallery, <strong>Slim Jetpacks</strong> plugin is required.</p>
+
+						<h4>Audio Format</h4>
+							<p>WordPress supports embedding into posts by default. An audio player will be inserted into the post.</p>
+
+							<ol>
+								<li>Click <strong>Add Media</strong> button.</li>
+								<li>Select your audio file. Once uploaded, make sure embed option is selected.</li>
+								<li>Insert and Publish.</li>
+							</ol>
+
+						
+						<h4>Image Format</h4>
+						
+							<p>Image format works very similar to a standard post. Just set a featured image of a recommend size and you're done.</p>
+						
+						
+					<h3 id="post-options">Post Settings &amp; Options</h3>
+						
+						<p>You will see the following post options when adding a post.</p>
+						
+						<p><img src="assets/img/shots/post-options.png" alt="Post Options"  class="img-polaroid" /></p>
+						
+						<ul>
+							<li><strong>Featured Slider Post?</strong> - Check this to feature this post in the homepage/category sliders.</li>
+							<li><strong>Layout Style</strong>: You have the option of a layout with a sidebar on right or a full-width layout for this post.</li>
+							<li><strong>Featured Video Code</strong>: As shown in the Video Format above, it's for setting a featured video for the post.</li>
+							<li><strong>Custom Background Image</strong>: Available when your layout is set to <strong>Boxed</strong> in Theme Settings. This allows you to change the background image of your site for only this post.</li>
+						</ul>
+						
+					
+					<h3>Reviews System</h3>
+					
+						<p>The review system is pretty self-explanatory. You only have to enable it for posts that are supposed to contain to be a review.</p>
+						
+						<p><img src="assets/img/shots/review-options.png" alt="Review Options" class="img-polaroid" /></p>
+						
+						<ul>
+							<li><strong>Enable Review?</strong> - Check this to enable review box for this post.</li>
+							<li><strong>Display Position</strong>: You can either display the review box at top being full width, or at bottom full width.</li>
+							<li><strong>Rating Type</strong>: You can use either percent or percentage format to display rating in the box.</li>
+							<li><strong>Heading</strong>: A heading text can be set for the review box. If no heading text is provided, the review box header is hidden.</li>
+							<li><strong>Verdict</strong>: Enter one word for verdict, such as "Awesome".</li>
+							<li><strong>Verdict Summary</strong>: Enter a few line summary of the review. You can use advanced shortcodes here too.</li>
+							<li><strong>Criteria</strong>: Click on <strong>Add More Criteria</strong> and fill in the Label and Rating for each Criterion that follows.</li>	
+						</ul>
+						
+					<h3>Shortcodes</h3>
+						
+						<p>Most of the shortcodes you will need are added to the GUI Shortcode Generator. Click the "Shortcodes" button while adding a post to see a list of 
+						generator-based shortcodes. There are a few layout related shortcodes that will not be listed there.</p>
+						
+						<p>For more info, refer to the <a href="#shortcodes">Shortcodes</a>	section of the docs.</p>
+					
+				</section>
+				
+				
+				
+				<section id="creating-pages">
+					
+					<div class="page-header">
+						<h1>Creating Pages</h1>
+					</div>
+					
+					<p>Creating pages is a simple process. However, the available templates and special layout based shortcodes might need a bit of explanation.</p>
+
+					<h3 id="page-builder">The Page Builder</h3>
+
+						<p><img src="assets/img/shots/page-builder.png" alt="Page Builder" class="img-polaroid" /></p>
+
+						<p>Using the page builder is recommended to create homepages. But you can use it to setup any page you like using the combination of widgets available. What's more, you can even use shortcodes within the text widget within the page builder. The only limit is your creativity!</p>
+
+						<p>To use the page builder:</p>
+
+						<ol>
+							<li>Considering you're at new page screen (Pages &gt; Add New), click <strong>Page Builder</strong> next to Visual and Text tab, above the post editor.</li>
+
+							<li>Click the <strong>+</strong> button to add new widgets. There are two types of widgets, the normal widgets and special <strong>block</strong> widgets. You can drag and drop multiple normal widgets into a row or column but the same cannot be done for block widgets.</li>
+
+							<li>Click on three lines button next to <strong>+</strong> button to add a row. You can create multi-column or single column row.</li>
+
+							<li>Under <strong>Page Attributes</strong>, select <strong>Homepage &amp; Blocks</strong> as  Template.</li>
+
+							<li>Play around with the widgets. Don't forget to enter a page title. Preview and Publish.</li>
+						</ol>
+
+					<h3>About Shortcodes <small>&mdash; Advanced &amp; Optional</small></h3>
+						
+						<p>You can either use the pagebuilder or use advanced shortcodes for everything. Not only that, you may also use shortcodes within the pagebuilder widgets such as Text or Rich Text widget.</p>
+						
+						<p>For more info, refer to the <a href="#shortcodes">Shortcodes</a>	section of the docs.</p>
+					
+					<h3>Page Templates</h3>
+						
+						<p><img src="assets/img/shots/page-templates.png" alt="Page Templates" class="img-polaroid" /></p>
+						
+						<ol>
+							<li><strong>Default</strong>: The default page has a container.</li>
+							
+							<li><strong>Homepage &amp; Blocks</strong>: This is a bare-bone template. Use it with page builder or when using advanced shortcodes to create the homepage.</li>
+
+							<li><strong>Authors List</strong>: Use this template to create a list of blog authors.</li>
+
+							<li><strong>Sitemap</strong>: This is a special template only to be used to create a Sitemap page as shown in the demo.</li>
+						</ol>
+					
+					<h3 id="setting-a-slider">Setting The Slider</h3>
+					
+						<p><img src="assets/img/shots/page-options.png" alt="Page Options" class="img-polaroid" /></p>
+
+						<p>When creating or editing a page (for example, your Homepage), under the editor in <strong>Page Options</strong>, next to <strong>Show Featured Slider?</strong>, 
+						select the type of slider you wish to use.</p>
+
+						<p>Both the options are self-explanatory, the first uses posts you manually marked as "Featured Slider Post?" (read <a href="#add-posts-to-slider">Add Posts to Slider</a>), whereas the second option shows the most recent posts automatically.</p>
+						
+						
+					<h3>Custom Sidebars</h3>
+						
+					<p>Details in <a href="#custom-sidebars">Sidebars &amp; Widgets</a> section.</p>
+					
+					<h3>Other Pages, Instructions and Samples</h3>
+					
+						<h4>Contact Page</h4>
+						
+							<p>Setting up a contact page requires that you install the "Contact Form 7" (go to Appearance &gt; Install Plugins if you have not already installed it).</p>
+							
+							<p>First create a contact form:</p>
+							
+							<ol>
+								<li>Go to <strong>Contact</strong> and edit the default contact form (Contact Form 1).</li>
+								<li><p>Replace form content with this:</p>
+								<pre class="prettyprint">
+&lt;p&gt;[text* your-name placeholder &quot;Your Name&quot;] &lt;/p&gt;
+
+&lt;p&gt;[email* your-email placeholder &quot;Your Email&quot;] &lt;/p&gt;
+
+&lt;p&gt;[text your-subject placeholder &quot;Subject&quot;]&lt;/p&gt;
+
+&lt;p&gt;[textarea your-message placeholder &quot;Your Message&quot;] &lt;/p&gt;
+
+&lt;p&gt;[submit class:submit-button &quot;Send Message&quot;]&lt;/p&gt;
+								</pre></li>
+								
+								
+								<li>Edit the "Mail" settings to suit your needs and <strong>Save</strong></li>
+								<li>For more information, refer to <a href="http://contactform7.com/faq/">Contact Form 7's FAQ</a> and <a href="http://contactform7.com/docs/">Docs</a>.</li>
+							</ol>
+							
+							<p>Once you have created your form:</p>
+							
+							<ol>
+								<li>Go to <strong>Contact</strong> again. Copy the code under <strong>Shortcode</strong> column.</li>
+								<li>Go to <strong>Pages &gt; Add New</strong>. Add your page content and paste the shortcode where you would like your contact form to appear.</li>
+							</ol> 
+							
+							<p><strong>Adding Google Maps to Contact Page</strong></p>
+							
+							<p>To add Google Maps:</p>
+							<ol>
+								<li>Go to <a href="https://maps.google.com">Google Maps</a>.</li>
+								<li>Find the desired location and in the left pane, click Link icon (it's to the right side of "My places" button, next to print icon).</li>
+								<li>Click customize and preview embedded map. Set settings as desired and the copy the HTML code.</li>
+								<li>Edit your page and go to <strong>Text</strong> editor (next to Visual). Paste your code and Publish.</li>							
+							</ol>
+							
+						<h4>Authors List</h4>
+
+							<p>To create a page with the list of authors, simply create a normal page and use <strong>Authors List</strong> as Page Template.</p>
+					
+				</section>
+				
+				
+
+				<section id="homepage-setup">
+					<div class="page-header">
+						<h1>Homepage Setup</h1>
+					</div>
+
+					<p>There are many different widgets/blocks that can be used to construct your homepage (or any page). To create a page, please refer to 
+					<a href="#creating-pages">Creating Pages</a> section of the docs.</p>
+
+					<h3>Setting Up Homepage</h3>
+					
+						<p>Once you have created a page that you would like to use as your homepage, follow these steps:</p>
+	
+						<ol>
+							<li>Go to <strong>Settings > Reading</strong>.</li>
+							<li>Choose <strong>"A static page"</strong> option for <em>Front page displays</em>.</li>
+							<li>Next to both <em>Front Page</em>, select the page you created to be used as the homepage.</li>
+							<li>Save Changes.</li>
+						</ol>
+						
+					<h3 id="page-modules">Pagebuilder Blocks For Homepage</h3>
+					
+					<p>While you can use all the page builder blocks widgets for homepage, there are few blocks that are very 
+						suitable for homepage. We have used a combination of these in our demo.</p>
+					
+					
+					<h4>Highlight Block <small>&mdash; 2 or 3 Columns</small></h4>
+					
+						<p>There are two highlight styles that you can use on the home-page. The first one, which shows two categories side-by-side, is shown below.</p>
+						
+						<p><img src="assets/img/shots/highlights-two.png" class="img-polaroid" /></p>
+						
+						<p>The second style, is of three columns. As shown below:</p>
+
+						<p><img src="assets/img/shots/highlights-three.png" class="img-polaroid" /></p>
+
+						<p>To setup, enter page builder mode. If you haven't already read the section on <a href="#page-builder">Page Builder</a>, read it before you proceed.</p>
+
+						<ol>
+							<li>Click "+" button to add a pagebuilder widget.</li>
+							<li>Click on "Highlights Block".</li>
+							<li>Select "2 Columns" and select a category or enter a tag for each column. Posts will be displayed from the selected category or the entered tag.</li>
+							<li>Click "Done" and Save/Update your page.</li>
+						</ol>
+
+						<p><span class="label label-info">Note</span> You can either choose to use a category OR a tag - but not both at the same time.</p>
+
+
+					<h4>News Focus Block</h4>
+					
+						<p>News focus block displays a category and all its sub-categories, as you can see in the picture below. It's a great compact format to display a lot of content.</p>
+						
+						<p><img src="assets/img/shots/news-focus.png" class="img-polaroid" /></p>
+
+						<p>To setup, enter page builder mode.</p>
+
+						<ol>
+							<li>Click "+" button to add a pagebuilder widget.</li>
+							<li>Click on "Highlights Block".</li>
+							<li>Select the parent category. By default all sub-categories under this category will be displayed in tabs. You can choose your own sub-categories by ticking them manually. Alternatively, you can enter tags.</li>
+							<li>Click "Done" and Save/Update your page.</li>
+						</ol>
+
+						<p><span class="label label-info">Note</span> You can either choose to use sub-categories or sub-tags, but not both at the same time.</p>
+
+					<h4>Blog/Listing Block <small>&mdash; 3 Listing Styles</small></h4>
+					
+						<p>This is the default listing module you should have already seen on your setup or in the demo. It's the traditional blog listing format as defined 
+						earlier for categories.</p>
+						
+						<ol>
+							<li>Click "+" button to add a pagebuilder widget.</li>
+							<li>Click on "Blog/Listing Block".</li>
+							<li>There are three types of listings as can explained under <a href="#category-listing-style">Category Listing Style</a>. Rest of the preferences are self-explanatory.</li>
+							<li>Click "Done" and Save/Update your page.</li>
+						</ol>
+
+					<h3>Example Homepages Setup</h3>
+						<p>Below we will mention the pagebuilder blocks used in the example homepages in the demo. Please make sure you already know how to create a page and a homepage.</p>
+
+						<p><strong>1. Default Homepage</strong></p>
+						<p>Page Template: Homepage &amp; Blocks (Advanced), Layout Style: Right Sidebar, Show Page Title: No.</p>
+
+						<dl class="dl-horizontal">
+							<dt>Highlights Block</dt>
+								<dd>4 Posts, 2 Columns, and categories selected for each column.</dd>
+
+							<dt>News Focus Block</dt>
+								<dd>4 Posts and a category selected.</dd>
+
+							<dt>News Focus Block</dt>
+								<dd>4 Posts and a category selected.</dd>
+
+							<dt>Separator</dt>
+								<dd>Line.</dd>
+							
+							<dt>Highlights Block</dt>
+								<dd>4 Posts, 3 Columns, and categories selected for each column.</dd>
+
+							<dt>Latest Gallery</dt>
+								<dd>Title "Recent Videos", 10 Media, "Videos" as Type of Media, and "Not Limited" to any category.</dd>
+
+						</dl>
+
+				</section>
+
+
+				
+				<section id="setup-navigation">
+					<div class="page-header">
+						<h1>Setup Navigation &amp; Menus</h1>
+					</div>
+				
+					<p>If you have imported demo content, follow (a) else follow (b) to create a new menu.</p>
+					
+					<h3>(a) Existing Menu</h3>
+						<ol>
+							<li>Go to to <strong>Appearance &gt; Menus</strong>. </li>
+							<li>In the "Manage Locations" area, under <strong>Main Navigation</strong>, select <strong>Main Menu</strong>. Click Save.</li>
+						</ol>
+						
+					<h3 id="creating-new-menu">(b) Creating a New Menu</h3>
+					
+						<ol>
+							<li>Go to to <strong>Appearance &gt; Menus</strong>. </li>
+							<li>Click on the <strong>+</strong> button or the <strong>create a new menu</strong> link. Enter a menu name and click <strong>Create Menu</strong>.</li>
+							<li>Using the <strong>Custom Links</strong> and <strong>Pages</strong> boxes at the left, add items to the menu and drag/drop to arrange them.</li>
+							<li>(optional) If you would like to use this menu in navigation, in the "Manage Locations" area, under <strong>Main Navigation</strong>, select your newly 
+								created menu. Click Save.</li>
+							<li>Click <strong>Save Menu</strong> and that is all.</li>
+						</ol>
+
+					<h3 id="mega-menus">Mega Menus</h3>
+
+						<p>There are two types of mega menus that SmartMag is equipped with.</p>
+
+						<h4>Links Mega Menu</h4>
+
+						<p>The first one is used to create an organized multi-column list of links. We call it the "Links Mega Menu".</p>
+
+						<p><img src="assets/img/shots/mega-menu-links.png" class="img-polaroid" /></p>
+
+						<h4>Category Mega Menu</h4>
+
+						<p>The category mega menu is a 3 column mega menu that shows sub-categories in first column, the latest featured post in the second, and 2 recent posts in third.</p>
+
+						<p><img src="assets/img/shots/mega-menu-cat.png" class="img-polaroid" /></p>
+
+						<h4>Add Mega Menu</h4>
+
+						<p>To add mega menu to your menu item:</p>
+
+						<ol>
+							<li>Go to to <strong>Appearance &gt; Menus</strong> and select your menu.</li>
+							<li>Expand the item you wish to add mega menu to by clicking the arrow icon.</li>
+							<li>Under <strong>Mega Menu</strong>, select <strong>Mega Menu for Links</strong> or <strong>Category Mega Menu</strong>.</li>
+							<li>Save Menu. Next configure sub-items (below).</li>
+						</ol>
+
+						<h4>Configure Mega Menu Items</h4>
+
+						<p>To make mega-menus work, you have one additional step of adding sub-items.</p>
+
+						<p>For <strong>Category Mega Menu</strong>, add a few sub-categories as sub-items (drag/drop them under a parent category in menu). Example:</p>
+
+						<p><img src="assets/img/shots/mega-menu-cat-setup.png" class="img-polaroid" /></p>
+
+						<p><strong>Links Mega Menu</strong> is configured by adding Custom Links to be used as headings. You can use 4 of these headings. Then, a 3rd-level sub-items are added which are displayed as links, under each heading. Example:</p>
+
+						<p><img src="assets/img/shots/mega-menu-links-setup.png" class="img-polaroid" /></p>
+
+					
+					<h3 id="breadcrumbs">Navigation Breadcrumbs</h3>
+					
+					<p>SmartMag has breadcrumbs enabled by default on all pages but the homepage (they would be redundant on homepage). The navigation breadcrumbs not only aid in navigation but also are immensely valuable for Search Engine Optimization (SEO).</p>
+
+					<p>The default breadcrumbs have <a href="https://support.google.com/webmasters/answer/99170?hl=en">Rich Snippets</a> built-in so more SEO is undesirable. If you use a SEO plugin like "WordPress SEO by Yoast", please do not enable the breadcrumb functionality of the plugin.</p>
+
+					<p>However, if you wish to disable the breadcrumbs: (NOT RECOMMENDED)</p>
+
+					<ol>
+
+						<li>Go to <strong>Appearance > Theme Settings</strong>.</li>
+						<li>Under <strong>Header</strong>, click on the button under <strong>Disable Breadcrumbs</strong>.</li>
+						<li>Save Settings.</li>
+
+					</ol>
+
+					<h3>Sticky Navigation</h3>
+					
+					<p>SmartMag has an option that can make your navigation menu stick to top of the browser when your users
+					 scroll. This ensures that your navigation menu is always accessible to the user, no matter how scrolled  into the page.</p>
+
+					<p>To enable sticky navigation:</p>
+
+					<ol>
+
+						<li>Go to <strong>Appearance > Theme Settings</strong>.</li>
+						<li>Under <strong>Header</strong>, click on the button under <strong>Sticky Navigation</strong>.</li>
+						<li>Save Settings.</li>
+
+					</ol>
+					
+				</section>
+				
+				
+				
+				<section id="header-setup">
+					<div class="page-header">
+						<h1>Header Setup</h1>
+					</div>
+					
+					<h3>Custom Logo</h3>
+						
+						<p>By default, your site title will be used as a text-based logo. However, you can also use an image-based logo.</p>
+						
+						<h4>Multi-colored Text-based Logo</h4>
+
+							<ol>
+								<li>Go to <strong>Appearance &gt; Theme Settings</strong>.</li>
+								<li>Under <strong>Logo Text</strong>, if you want the "Mag" part of SmartMag to use the theme's main color, input as follows:
+								<code>Smart[main-color text="Mag"/]</code></li>
+								<li>Save Changes.</li>
+							</ol>
+						
+						<h4>Using an Image-based Logo</h4>
+
+							<p>To be retina friendly (look high quality on devices like iPad), you will have to create two images of your logo. One the normal size and the second exactly double the height and width.</p>
+							
+							<ol>
+								<li>Go to <strong>Appearances &gt; Theme Settings</strong>. </li>
+								<li>Under <strong>Logo Image</strong>, click <strong>Upload</strong> button.</li>
+								<li>Upload your second logo (2x size) under <strong>Logo Image Retina (2x)</strong>.</li>
+								<li>Click <strong>Save Settings</strong>.</li>
+							</ol>
+
+					<h3 id="top-bar">Top Bar</h3>
+					
+						<p>Top bar is the area above the header. It's enabled by default and has a News Ticker showing latest posts to the left, a widget area and a search box to the right. The widget area is useful for adding social icons.</p>
+
+						<h4>Disabling Top Bar</h4>
+
+						<ol>
+							<li>Go to <strong>Appearance &gt; Theme Settings</strong>.</li>
+							<li>Under <strong>Disable Top Bar</strong>, click the button.</li>
+							<li>Save Changes.</li>
+						</ol>
+
+						<h4>Adding Social Icons</h4>
+						
+						<p>You will use the social shortcode in a widget to add your social icons.</p>
+
+						<ol>
+							<li>Go to <strong>Appearance &gt; Widgets</strong>. Click on <strong>Top Bar (Above Header)</strong> to expand the box.</li>
+							<li>Drag and drop a <strong>Text</strong> widget from left into the box that was expanded in the step above.</li>
+							<li><p>Do not enter a title. Modify and enter this shortcode:</p>
+								
+<pre class="prettyprint">
+[social]
+	[social_icon link="/?feed=rss2" title="RSS" type="rss" /]
+	[social_icon link="http://facebook.com/<strong>username</strong>" title="Facebook" type="facebook" /]
+	[social_icon link="http://twitter.com/<strong>username</strong>" title="Twitter" type="twitter" /]
+	[social_icon link="<strong>link to your google+ profile</strong>" title="Google+" type="google-plus" /]
+	[social_icon link="<strong>link to your linkedin profile</strong>" title="LinkedIn" type="linkedin" /]
+[/social]
+</pre>
+							<li>Save.</li>
+						</ol>
+
+						<p>Check <a href="#social-icons-shortcode">Social Icons Shortcode</a> section for more icons.</p>
+
+					<h3>Adding Advertisement</h3>
+
+						<p>SmartMag has an ad spot at the right side of the header. To use it, simply create an advertisement widget in the <strong>Header Right</strong> widget area.</p>
+
+						<ol>
+							<li>Go to <strong>Appearance &gt; Widgets</strong>. Click on <strong>Header Right</strong> to expand the box.</li>
+							<li>Drag and drop an <strong>Advertisement</strong> widget from left into the box that was expanded in the step above.</li>
+							<li>Paste your advertisement code and Save.</li>
+						</ol>
+						
+				</section>
+				
+				
+				<section id="widgets">
+					<div class="page-header">
+						<h1>Sidebars and Widgets</h1>
+					</div>
+					
+					<p>SmartMag comes equipped with several custom widgets but also styles many of the default widgets in several locations.</p>
+					<p>If you are unable to see these custom widgets, please activate the <strong>Bunyad Widgets</strong> plugin.</p>
+					
+					<h3 id="custom-widgets">Custom Widgets</h3>
+					
+						<dl class="dl-horizontal">
+							<dt>Bunyad - About</dt>
+								<dd>A widget to display an image/logo and a description of your site/blog. Recommended for footer.</dd>
+							
+							<dt>Bunyad - Flickr</dt>
+								<dd>Display a configurable number of flickr photos from your account with configurable sorting options. Recommended for footer.</dd>
+								
+							<dt>Bunyad - Recent Posts</dt>
+								<dd>An improvement over the default recent posts widget, including thumbnail. Suitable for main sidebar and footer.</dd>
+								
+							<dt>Bunyad - Recent Tabs</dt>
+								<dd>Display latest posts. First tab is Recent and other tabs can be any category. Recommend for main sidebar.</dd>
+								
+							<dt>Bunyad - Latest Reviews</dt>
+								<dd>Display the latest reviews.</dd>
+							<dt>
+							
+							<dt>Bunyad - Popular Posts</dt>
+								<dd>Displays the overall popular posts, based on number of comments received, with thumbnails.</dd>
+							<dt>
+						</dl>
+						
+						<h4>How to use widgets</h4>
+						
+							<ol>
+								<li>Go to <strong>Appearance &gt; Widgets</strong>.</li>
+								<li><strong>Main Sidebar</strong> is the main right sidebar and <strong>Footer (3 widgets columns)</strong> is the large footer. 
+									Expand the box at right, where you would like to place your widget, by clicking on the arrow icon next to it.</li>
+								<li>Drag &amp; drop the widget you wish to use, in the expanded area below the box (Main Sidebar for example).</li>
+								<li>Fill in the information necessary and click Save.</li>
+							</ol>
+							
+						<h4></h4>
+
+					<h3 id="right-sidebar">The Right Sidebar</h3>
+
+						<p>SmartMag's right sidebar uses the <strong>Main Sidebar</strong> widget area. Any widgets you drag/drop in this widget area will be displayed in the right sidebar.</p>
+
+						<p>Demo uses Recent Tabs, a Text widget with latest-gallery shortcode, an Advertisement widget, and the Latest Reviews widget.</p>
+
+						<h4>Latest Gallery</h4>
+
+							<p>The latest gallery in the demo shows 5 recent posts in a slider. For the latest gallery widget in the right sidebar, we use the following shortcode in a Text widget:</p>
+							<pre class="prettyprint">
+[latest_gallery cat="all" number="5" type="slider"]
+</pre>
+							<p>For more information on this shortcode's settings, refer to the <a href="#shortcodes">Shortcodes</a> section.</p>
+
+						<h4 id="ads-setup">Advertisement Setup</h4>
+						
+							<p>Setting up advertisements on the right side is pretty simple. You will create a <strong>Advertisement</strong> widget and paste your ad code in it.</p>
+
+							<p>For a normal ad, create the Advertisement widget as explained in section above, and paste the code in it. That's all.</p>
+							
+							<p>If you would like to use custom ads in two columns, you can use the columns shortcode, for example:</p>
+							
+							<pre class="prettyprint">[columns]
+
+	[column size="1/2"]<strong>left ad code here</strong>[/column]
+	[column size="1/2" class="right"]<strong>right ad code here</strong>[/column]
+
+[/columns]</pre> 
+					
+					<h3 id="custom-sidebars">Custom Sidebars</h3>
+					
+						<p>SmartMag is fully compatible with all of the custom sidebars plugins available for free. Custom sidebars allow you to change the right sidebar (for example) to display different widgets on a specific category, post, or page.</p>
+
+						<p>If you wish to use custom sidebars feature, we recommend the 
+						<a href="http://wordpress.org/plugins/custom-sidebars/">Custom Sidebars</a> plugin. It's an extremely powerful and flexible free plugin. It's recommended by the Theme to be installed but if you haven't installed it yet, install it from <strong>Appearance &gt; Install Plugins</strong> (not visible if plugin already installed).</p>
+						
+						<p>To use this plugin, go to <strong>Appearance &gt; Widgets</strong> and <strong>Create a new sidebar</strong>. After you have created a Custom Sidebar, go to <strong>Appearance &gt; Custom Sidebars</strong>, under <strong>Replaceable Sidebars</strong> select <strong>Main Sidebar</strong> and Save.</p>
+						
+						<p>Next, simply add/edit a post or page and you should have a <strong>Sidebars</strong> box at the right side where you can select your sidebar from a 
+						drop-down list. </p>
+						
+						<h4>Using on categories, tags, archives, and search</h4>
+						
+						<ol>
+							<li>Go to <strong>Appearance &gt; Widgets</strong>. Click arrow to expand the sidebar you wish to use on a category.</li>
+							<li>Click <strong>Where?</strong> link.</li>
+							<li>Click to expand on <strong>As a default sidebars for archives</strong>.</li>
+							<li>Click on <strong>Category archives</strong>. Expand your desired category by clicking on it.</li>
+							<li>Select your sidebar from the drop-down list or click the "&lt;- Set SIDEBAR here." where SIDEBAR is your sidebar name.</li>
+						</ol>
+						
+						<p>As you may have noticed, there are other boxes after step 3 such as "Tag archives", "Author archives", "Search results page". You can use these 
+						to set a custom sidebar for a tag, author page, or the search results page respectively.</p>
+						
+					
+				</section>
+				
+				
+				<section id="footer-setup">
+					<div class="page-header">
+						<h1>Footer Setup</h1>
+					</div>
+					
+					<p>SmartMag comes with a footer that's split into two sections, the larger (upper) footer and the lower footer. Both are widget areas that can be modified as you wish.</p>
+
+					<p>Please ensure that you have already acquainted yourself with general widget setup via the sections above. This section assumes you already know how to add widgets to widget areas.</p>
+					
+					<h3>Large Footer</h3>
+					
+						<p>By default, you're supposed to use 3 widgets in the footer. However, should you wish to go advanced, you may add a Text widget and use 
+						<a href="#shortcode-column">Columns Shortcode</a> to create as many columns as you want with your own content.</p>
+						
+						<p>Recommended Widgets:</p>
+						
+						<dl class="dl-horizontal">
+							<dt>Bunyad - About</dt>
+								<dd>Write a description and use an image/logo link - you can upload an image in Media Library and copy/pate the link. Full custom code and HTML supported.</dd>
+							
+							<dt>Bunyad - Flickr</dt>
+								<dd>Using this widget can show the latest photos from your flickr stream.</dd>
+
+							<dt>Bunyad - Recent Posts</dt>
+								<dd>An improvement over the default recent posts widget, having thumbnails.</dd>
+								
+							<dt>Bunyad - Popular Posts</dt>
+								<dd>Another very good choice for footer widgets.</dd> 
+						</dl>
+						
+						<p>While the above is a recommended list, you are free to use many of the default widgets in the footer, like Calendar, Image widget etc. </p>
+
+						<h4>FeedBurner Subscribe <small>&mdash; In About Widget</small></h4>
+
+						<p>The subscription option shown in the Demo is simply a <a href="http://feedburner.com/">Feedburner</a> <a href="#shortcodes">Shortcode</a>. To setup, in your description box of About widget, enter the following shortcode:</p>
+
+						<pre class="prettyprint">
+[feedburner user="<strong>FEEDBURNER USERNAME</strong>" heading="Subscribe to our newsletter:" label="Email Address" button_text="SUBMIT"]
+</pre>
+					
+					<h3>Lower Footer</h3>
+					
+						<p>Lower footer is best used for simple copyright message. For a simple copyright message, just drag &amp; drop a Text widget and add your copyright.</p>
+						
+						<p>If you wish to achieve the demo look, adding links to the lower footer on the right side, you need to do two things.</p>
+						
+						<ol>
+							<li>Add a Text widget into Lower Footer widget area and enter a copyright message in the text field, leaving the title empty.</li>
+							
+							<li><a href="#creating-new-menu">Create a menu</a>. Go back to Widgets and Drag &amp; Drop a <strong>Custom Menu</strong> widget. Select your menu.</li>					
+						</ol>
+						
+						<p><span class="label label-info">Note</span> Hierarchical menus are NOT supported. Only use menus of single depth. Footer is not a place for drop down menus.</p>
+						
+					
+				</section>
+				
+				
+				
+				<section id="style-typography">
+					<div class="page-header">
+						<h1>Color, Style &amp; Typography</h1>
+					</div>
+						
+					<p>Both the color/style and typography settings are located in <strong>Theme Settings</strong>.</p>
+						
+					<h3>Color &amp; Style</h3>
+						
+						<h4>Using a Pre-defined Skin</h4>
+					
+							<ol>
+								<li>Go to <strong>Appearance &gt; Theme Settings</strong>. Click <strong>Style &amp; Colors</strong> tab at left.</li>
+								<li>Select one of the pre-defined skins and click <strong>Save Settings</strong>.</li>
+							</ol>
+							
+							
+						<h4>Customizing the Colors &amp; Backgrounds</h4>
+						
+							<ol>
+								<li>Go to <strong>Appearance &gt; Theme Settings</strong>. Click <strong>Style &amp; Colors</strong> tab at left.</li>
+								<li>Usually you may wish to only change <strong>Main Color</strong>. This will effect links, background of special elements like slider and 
+								highlights module, and other relevant areas. Leave everything default and see if you like the result.</li>
+								<li>If the Main Color changes are not enough, customize and change colors as you please.</li>
+								<li>Save Settings.</li>
+							</ol>
+
+							<p><span class="label label-info">Note</span> In case you mess up, you can always click <strong>Reset Colors</strong>. DO NOT click Reset All Settings as that will erase all other settings
+								too.
+							</p>
+							
+					<h3>Typography</h3>
+					
+						<p><img src="assets/img/shots/typography.png" alt="Typogrpahy"/></p>
+					
+						<p>For typography, we use <a href="http://www.google.com/fonts/">Google Web Fonts</a>. Many of the typography elements have suggested font families or fonts.</p>
+						
+							<ol>
+								<li>Go to <strong>Appearance &gt; Theme Settings</strong>. Click <strong>Typography</strong> tab at left.</li>
+								<li>Select a font you like as the Main Font, Heading Font etc. and Save Settings.</li>
+								<li>Experiment to get the best effect.</li>
+							</ol>
+							
+						<h4>Other Recommended Fonts</h4>
+						
+						<ul>
+							<li>Droid Sans</li>
+							<li>Lato</li>
+							<li>PT Sans</li>
+							<li>Roboto</li>
+							<li>Gudea</li>
+							<li>Merriweather Sans</li>
+							<li>Oxygen</li>
+						</ul>
+						
+							
+						<h4>About Character Sets <small>&mdash; Advanced</small></h4>
+						
+						<p>Non-latin script based languages will not display correctly when using the default fonts. This is because, to limit size, only latin charset is included by default.</p>
+
+						<p>To get the fonts to display correctly, you will have to tick the character sets for your language. Some latin-based languages required Latin Extended.</p>
+						
+						<p><span class="label label-info">Note</span> If all else fails, you can use the <strong>System Fonts</strong> show towards the end of the drop down choices.</p>
+					
+				</section>
+				
+				
+				
+				<section id="other-settings">
+					<div class="page-header">
+						<h1>Slider &amp; Other Settings</h1>
+					</div>
+					
+					<p>To access these settings in question, go to <strong>Appearance &gt; Theme Settings</strong>.
+						Each setting includes relevant information on the right side about what it does making everything very self-explanatory.
+					</p>
+					
+					<h3 id="add-posts-to-slider">Add Posts to Slider</h3>
+					<p>The featured content area in SmartMag consists of 8 posts. 5 of these posts are displayed in the slider, while 3 of them are displayed right next to the slider in a post grid. The posts are sorted by date.</p>
+
+					<p>The default option of slider is to display images you have marked as "Featured Slider Post?" manually. However, there's an option to automatically show the most latest posts in the slider (when using that option, the setting below <strong>does not apply</strong>). Read <a href="#setting-a-slider">Setting the Slider</a> section for more information.</p>
+					
+					<p>To mark a post to be displayed in the featured area:</p>
+
+					<ol>
+						<li>Go to <strong>Posts &gt; Add New</strong> or Edit an existing post.</li>
+						<li>Under Post Options, check "Featured Slider Post?". This is covered in more details under <a href="#post-options">Post Options</a> section.</li>
+						<li>Save your post. That's all.</li>
+					</ol>
+
+
+					<h3>Slider Settings</h3>
+						<p><img src="assets/img/shots/slider-settings.png" alt="Slider Settings" /></p>
+						
+						<p>Slider Settings in the panel are only related to the effects used by all the featured sliders. 
+						To change the featured slider for a homepage/page, refer to the <a href="#setting-a-slider">Setting A Slider</a> sub-section.</p>
+
+
+						<h4>Featured Area Post Grid - Custom Category or Tag <small>&mdash; the 3 posts on right side of slider</small></h4>
+
+						<p>This is an <strong>OPTIONAL</strong> choice some of our users like. You can use a category or tag to show latest posts from, for the post grid on the right side of slider.</p>
+
+						<ol>
+							<li>Go to <strong>Appearance &gt; Theme Settings &gt; Slider &amp; Featured</strong>.</li>
+							<li>Under <strong>Right Side Posts Grid</strong>, select a category or enter a tag - but not both.</li>
+							<li>Save Settings.</li>
+						</ol>
+						
+						
+					<h3>Other Settings</h3>
+					
+						<h4>FavIcon and Mobile Icon</h4>
+						
+							<p>These favicons are good to have when someone bookmarks your site. Both of these settings are located in 
+								<strong>General Settings</strong> near the bottom.</p>
+								
+							<p>Use a 32x32 .ico file for your favicon and 144x144 .png file for mobile icon. Mobile icon will be used 
+							when users add your website as a shortcut on mobile devices like iPhone, iPad, Android etc.</p>   
+						
+						<h4>Post Tags</h4>
+						
+							<p>While we prefer categories over tags, some of our users might want to use both at the same time. To enable tags, 
+							go to <strong>Page / Post Settings</strong> and set <strong>Show Tags</strong> to Yes.</p>
+							
+						<h4 id="custom-css">Custom CSS</h4>
+							
+							<p>Please do not edit .css files directly. When there is a theme upgrade, you will lose any custom edits you made. Rather, 
+							we recommend that you use the built-in custom CSS setting to extend the default style.
+							This CSS will be preserved between upgrades.
+							</p> 
+							
+							<p>Go to <strong>Custom CSS</strong>, enter your desired CSS and click Save Settings.</p>
+							
+						<h4>Settings Backup &amp; Restore</h4>
+						
+							<p>Before you make any massive like in colors, you may wish to create a backup. Just click <strong>Download Backup</strong> to
+							get a backup. You can later restore it using the Restore/Import feature. </p>
+						
+				</section>
+
+
+				<section id="internalization">
+					<div class="page-header">
+						<h1>Translation &amp; Internalization</h1>
+					</div>
+					
+						<p>SmartMag comes with .po and .pot file included under the languages folder. To translate:</p>
+						
+						<ol>
+							<li>Download and install <a href="http://www.poedit.net/">Poedit</a>.</li>
+							<li>Open smart-mag.pot in Poedit. Translate as needed.</li>
+							<li>Save the file with the locale. If you have already setup WordPress in your language, you can get it from your wp-config.php file under, for example:  
+								<code>define('WPLANG', 'en_GB');</code>. In this case, you would save your file as en_GB.po.</li>
+							<li>Step above should have generated a <strong>.po</strong> and an <strong>.mo</strong> file. Copy both these files under the languages folder of smart-mag.</li> 
+						</ol>
+
+						<h3>Your Language &amp; Localization</h3>
+							<p>After translating, you may wish to use the correct locale to translate and localize your WordPress installation completely. Refer to <a href="http://codex.wordpress.org/Installing_WordPress_in_Your_Language">Installing WordPress In Your Language</a> at WordPress Codex to learn how to.</p>
+
+						<h3>RTL Version</h3>
+							<p>For languages that read from right-to-left unlike English which is left-to-right, SmartMag will automatically switch to an RTL style, as long as you it's in your language and uses the correct locale (as explained above).</p>
+						
+						<h3>Multilingual Sites</h3>
+						
+							<p>For multilingual sites, the best way is to purchase the <a href="http://wpml.org/">WPML Plugin</a>. SmartMag is compatible with the plugin.</p>
+							
+							<p>When using WPML, we recommend you use <strong>Display the language switcher in the WP Menu</strong> option and select <strong>Main Menu</strong>. 
+							This will display the languages drop down menu in the main navigation menu.</p>
+						
+					
+										
+				</section>
+
+
+				<section id="customizations">
+					<div class="page-header">
+						<h1>Advanced Customizations</h1>
+					</div>
+					
+					<p>If you are looking for layout customizations beyond the <a href="#style-typography">Style &amp; Typography</a> settings built into the theme, 
+					it's important to judge the nature of customization.</p> 
+					
+					<p>If it's a simple layout change, it's very likely achievable by using different <a href="#shortcodes">Shortcodes</a> or 
+						<a href="#custom-css">Custom CSS</a>. However, for something not possible using either of these, a child theme is recommended.</p>
+						
+					<h3>Child Theme</h3>
+					
+						<p>WPBeginner has a great article on <a href="http://www.wpbeginner.com/wp-themes/how-to-create-a-wordpress-child-theme-video/" target="_blank">How to create a 
+						WordPress Child Theme</a>. Use <code>Template: smart-mag</code> instead of twentyeleven.
+						</p>
+						
+						<p>Also, use <code>@import url("../smart-mag/style.css");</code> in the CSS file to import parent stylesheet.</p>
+
+				</section>
+
+				
+				
+				<section id="shortcodes">
+					<div class="page-header">
+						<h1>Shortcodes</h1>
+					</div>
+					
+					<p>SmartMag supports the usage of shortcodes in <strong>Pages, Posts, Page Builder Text/Rich Text widgets, Advertisement, About, and Text widgets</strong>. Thereby, giving your maximum flexibility. Please note when creating a post or a page , most of these shortcodes are accessible via the Shortcodes button in the Visual editor.</p>
+
+					<h3>Posts Shortcodes</h3>
+					
+						<p>Post shortcodes are accessible via the <strong>GUI Shortcode Generator</strong>. Simply click the <strong>Shortcodes</strong> drop-down in the editor 
+						(make sure you're on Visual editor) and select the relevant shortcode to be guided.</p>
+						
+						<p>If you wish to manually use the shortcodes (advanced users only), the guide below offers some insight into each.</p>
+					
+						<h4>PullQuote</h4>
+							<pre class="prettyprint">[pullquote]quote here[/pullquote]</pre>
+							
+							
+						<h4>Dropcap</h4>
+							
+							<pre class="prettyprint">[dropcap]A[/dropcap]</pre>
+
+							<p>To use the square version:</p>
+
+							<pre class="prettyprint">[dropcap style="square"]A[/dropcap]</pre>
+					
+						<h4>Buttons</h4>
+
+							<pre class="prettyprint">[button link="http://somewhere.com" color="white, blue, black, green, red, yellow, or custom hex code" 
+text_color="optional hex color" size="small, medium, or large"]Label[/button]</pre>
+							
+						
+						<h4>Tabs</h4>
+
+							<pre class="prettyprint">[tabs]
+	[tab title="Title 1"]Content 1[/tab]
+	[tab title="Title 2"]Content 2[/tab]
+[/tabs]</pre>
+
+
+						<h4>Accordions</h4>
+						
+							<pre class="prettyprint">[accordions]
+	[accordion title="Title 1" load="show"]Content 1[/accordion]
+	[accordion title="Title 2" load="hide"]Content 2[/accordion]
+[/accordions]</pre>
+
+							<p><span class="label label-info">Tip</span> <code>load="show"</code> defines to show this accordion (expanded) by default.</p>
+							
+						<h4>Toggles</h4>
+						
+							<pre class="prettyprint">[toggle title="Title 1" load="show"]Content 1[/toggle]
+[toggle title="Title 2" load="hide"]Content 2[/toggle]
+							</pre>
+							
+							<p><span class="label label-info">Tip</span> <code>load="show"</code> defines to show this accordion (expanded) by default.</p>
+							
+						<h4>Custom List</h4>
+
+							<pre class="prettyprint">[list style="arrow, check, edit, folder, file, or heart"]
+	[li]Item 1[/li]
+	[li]Item 2[/li]
+[/list]</pre>
+							<p>Custom lists support all of the icons from <a href="http://fontawesome.io/icons/">FontAwesome</a>. Simply type it in style argument without the fa- (ex. <strong>arrows</strong> for fa-arrows).</p>
+
+							
+						<h4>Columns</h4>
+						
+							<p>Columns are a border-line layout shortcodes. While they're also often used in posts, they're covered below.</p>
+							
+							
+					<h3>Layout &amp; Block Shortcodes <small>&mdash; Advanced!</small></h3>
+					
+						<p>This section is only for advanced users. Use <a href="#page-builder">page builder</a> if you are uncomfortable with using shortcodes.</p>
+					
+						<h4>Column Shortcodes</h4>
+						
+							<p>The column shortcode is a special shortcode. Sample shortcode:</p>
+							
+							<pre class="prettyprint">[columns]
+
+	[column size="1/4"]Column 1 goes here[/column]
+	[column size="1/4"]Column 2 goes here[/column]
+	[column size="2/4"]Column 3 goes here[/column]
+
+[/columns]</pre>
+
+							<p>The <code>[column]</code> shortcode has the following variables/options:</p>
+							
+							<dl class="dl-horizontal">
+								<dt>size</dt>
+									<dd>5 columns are supported. Hence all combinations are supported up to 5 such as 1/2, 2/3, 1/4, 3/5 etc. Alternatively, English version of the numbers 
+									is also supported, such as half, one-third, three-fourth, four-fifth etc. Example: <code>size="one-fourth"</code>.</dd>
+								
+								<dt>text_align</dt>
+									<dd>left, center, and right are valid alignment values. left is used by default. Example: <code>text_align="right"</code>.</dd>
+									
+								<dt>class</dt>
+									<dd>Any of the custom CSS classes can be defined for the column using this attribute.</dd>
+								
+							</dl> 
+							
+						<h4>Blog Block</h4>
+						
+							<p>Blog block is used to list latest posts using the desired listing format. Sample:</p>
+
+							<pre class="prettyprint">[blog type="alt" heading="Latest Posts" heading_type="block" /]</pre>
+
+
+							<dl class="dl-horizontal">
+								<dt>type</dt>
+									<dd>(optional) value: modern, alt, timeline, or leave empty. This setting defines the listing format. The listing styles were explained in <a href="#category-listing-style">Category Listing Styles</a>. Default: Listing Format in Theme Settings.</dd>
+								
+								<dt>posts</dt>
+									<dd>Number of posts to display. Set to 0 or -1 for no limit.</dd>
+
+								<dt>heading</dt>
+									<dd>(optional) Enter a heading you wish to use for this block, for instance a category title.</dd>
+									
+								<dt>heading_type</dt>
+									<dd>(optional) value: block, or leave empty. The default heading is in a post heading format. To get it to the home page section heading style, use block as value.</dd>
+
+								<dt>cats</dt>
+									<dd>(optional) A comma separated list of category ids you wish to limit the posts to a category or multiple categories.</dd>
+
+								<dt>tags</dt>
+									<dd>(optional) A comma separated list tag slugs you wish to limit the posts to a tag or multiple tags. This only works if <em>cats</em> is not used.</dd>
+
+								<dt>pagination</dt>
+									<dd>value: 1 (to enable), or 0 (to disable). If pagination is enabled, the "posts" number is used for limiting posts per page.</dd>
+
+								<dt>sort_by</dt>
+									<dd>value: modified, random (leave empty for published date).</dd>
+
+								<dt>sort_order</dt>
+									<dd>value: asc, desc (leave empty to use desc).</dd>
+
+								<dt>taxonomy</dt>
+									<dd>(optional advanced) A custom taxonomy even registered with custom post types. Usually used with the categorization taxonomy of custom post types.</dd>
+								
+							</dl> 
+
+						<h4 id="latest-gallery-shortcode">Latest Gallery Block</h4>
+						
+							<p>The gallery block is used to either display a carousel or a slider of latest posts of a specific media such as galleries, videos etc. Sample:</p>
+
+							<pre class="prettyprint">[latest_gallery cat="all" number="5" type="slider" /]</pre>
+
+
+							<dl class="dl-horizontal">
+								<dt>format</dt>
+									<dd>(optional) value: all, gallery, video, audio, or leave empty. This defines the post format to use. For example, setting this value to video will use the featured images of the most recent posts in video post format.</dd>
+								
+								<dt>number</dt>
+									<dd>Number of posts to display.</dd>
+
+								<dt>title</dt>
+									<dd>(optional) Enter a heading you wish to use for this block, for instance a category title.</dd>
+
+								<dt>cat</dt>
+									<dd>(optional) A category id to limit the posts to a specific category.</dd>
+
+								<dt>tax_tag</dt>
+									<dd>(optional) A tag slug (e.g. cooking) to limit the posts to a specific tag. Only works if a <em>cat</em> is not specified.</dd>
+
+								<dt>type</dt>
+									<dd>value: carousel, slider. You can either display using a carousel (recommended for normal body) or a slider (recommended for sidebar).</dd>
+								
+							</dl> 
+
+							<p><span class="label label-info">Note</span> Gallery block uses the featured image of the selected post formats. It will not display videos or audio but simply the featured image of that post.</p> 
+
+
+						<h4>Highlights Block</h4>
+						
+							<p>The highlights block was explained in <a href="#page-modules">Page Blocks</a> section. Sample:</p>
+
+							<pre class="prettyprint">[highlights columns="2" cats="entertainment,business" /]</pre>
+
+
+							<dl class="dl-horizontal">
+								<dt>columns</dt>
+									<dd>value: 2, 3. Number of columns.</dd>
+								
+								<dt>cats</dt>
+									<dd>Comma separated categories to use in the columns. Either use category slug or category id.</dd>
+
+								<dt>tags</dt>
+									<dd>(optional) Comma separated tag slugs to use in the columns. Only works if <em>cats</em> is not used.</dd>
+
+								<dt>headings</dt>
+									<dd>(optional) Comma separated headings to use for each column in respective order.</dd>
+
+								<dt>sort_by</dt>
+									<dd>value: modified, random (leave empty for published date).</dd>
+
+								<dt>sort_order</dt>
+									<dd>value: asc, desc (leave empty to use desc).</dd>
+								
+							</dl> 
+
+							<p>Highlights block is the only block that can go in a single column, as a separate block. For example (using columns shortcode):</p>
+
+							<pre class="prettyprint">
+[columns]
+	[column size="half"][highlights cat="entertainment" /][/column]
+	[column size="half"][highlights cat="vogue" /][/column]
+[/columns]
+</pre>
+							<p>When in this mode, the supported parameters are also different. There's advanced taxonomies support here too.</p>
+
+							<dl class="dl-horizontal">
+
+								<dt>cat</dt>
+									<dd>Comma separated categories to use in the columns. Either use category slug or category id (when using custom taxonomies, slug is NOT supported).</dd>
+
+								<dt>tax_tag</dt>
+									<dd>(optional) Comma separated tag slugs to use in the columns. Only works if <em>cats</em> is not used.</dd>
+
+								<dt>title</dt>
+									<dd>(optional) Heading to use for this block.</dd>
+
+								<dt>sort_by</dt>
+									<dd>value: modified, random (leave empty for published date).</dd>
+
+								<dt>sort_order</dt>
+									<dd>value: asc, desc (leave empty to use desc).</dd>
+
+								<dt>posts</dt>
+									<dd>Number of posts to show.</dd>
+
+								<dt>taxonomy</dt>
+									<dd>(optional advanced)A custom taxonomy even registered with custom post types. Usually used with the categorization taxonomy of custom post types.</dd>
+								
+							</dl> 
+
+
+						<h4>News Focus Block</h4>
+						
+							<p>The news focus block was explained in <a href="#page-modules">Page Blocks</a> section. Sample:</p>
+
+							<pre class="prettyprint">[news_focus cat="business" /]</pre>
+
+
+							<dl class="dl-horizontal">
+								<dt>cat</dt>
+									<dd>Category slug or id. The parent category to use. Sub-categories from this parent will be displayed in the heading.</dd>
+
+								<dt>tax_tag</dt>
+									<dd>Tag slug to limit posts to a tag. Only use if <em>cat</em> is not defined.</dd>
+
+								<dt>sub_cats</dt>
+									<dd>Comma separated list of category ids to use as sub-categories.</dd>
+
+								<dt>sub_tags</dt>
+									<dd>Comma separated list of tag slugs to use as sub-categories in the heading. Only use if <em>sub_cats</em> is not defined.</dd>
+
+								<dt>sort_by</dt>
+									<dd>value: modified, random (leave empty for published date).</dd>
+
+								<dt>sort_order</dt>
+									<dd>value: asc, desc (leave empty to use desc).</dd>
+
+								<dt>taxonomy</dt>
+									<dd>(optional advanced) A custom taxonomy even registered with custom post types. Usually used with the categorization taxonomy of custom post types.</dd>
+							</dl> 
+
+						<h4>Separator</h4>
+							
+							<pre class="prettyprint">[separator type="space" /]</pre>
+
+							<dl class="dl-horizontal">
+								<dt>type</dt>
+									<dd>value: space, line, half-space, half-line. The separator can be either be a large empty space, line-based, small empty space, or line-based but with lesser space.</dd>								
+							</dl> 
+
+						<h4 id="social-icons-shortcode">Social Icons</h4>
+
+							<p>The social icons shortcode is mainly used for header top bar or footer widgets. These are the small icons you can see in top bar on demo. Example:</p>
+
+						<pre class="prettyprint">
+[social]
+	[social_icon link="/?feed=rss2" title="RSS" type="rss" /]
+	[social_icon link="http://facebook.com/<strong>username</strong>" title="Facebook" type="facebook" /]
+	[social_icon link="http://twitter.com/<strong>username</strong>" title="Twitter" type="twitter" /]
+	[social_icon link="<strong>link to your google+ profile</strong>" title="Google+" type="google-plus" /]
+	[social_icon link="<strong>link to your linkedin profile</strong>" title="LinkedIn" type="linkedin" /]
+[/social]
+</pre>
+							<dl class="dl-horizontal">
+								<dt>link</dt>
+									<dd>Link to your social profile.</dd>
+								
+								<dt>title</dt>
+									<dd>Mouse-over title to use for this social icon.</dd>
+
+								<dt>type</dt>
+									<dd>value: facebook, twitter, google-plus, linkedin, twitter, rss, pinterest, instagram, youtube, tumblr.</dd>
+								
+							</dl>
+
+
+					<h3>Media Shortcodes</h3>
+						
+						<p>WordPress core supports embedding much of media out of the box.</p>
+						
+						<h4>Galleries</h4>
+							
+							<p>Galleries were already covered in <a href="#gallery-format">Gallery Post Format</a> section. For advanced usage, refer to 
+								<a href="http://codex.wordpress.org/Gallery_Shortcode" target="_blank">Gallery Shortcode</a> section in WordPress docs.
+							</p>
+													
+						
+						<h4>Embedding Videos &amp; Audio</h4>
+							<p>To show a video from YouTube or Vimeo for example, you would just copy the link and paste it into your post content.</p>
+							
+							<p><a href="http://codex.wordpress.org/Embeds">Checkout the Embeds</a> section of WordPress's docs to find the supported sites.</p>
+							
+							<p>Should that fail, you can use the embed shortcode as <code>[embed]http://www.youtube.com/watch?v=dQw4w9WgXcQ[/embed]</code>.</p>
+							
+						
+						<h4>Self-hosted Audio &amp; Video</h4>
+						
+							<p>Starting WordPress 3.6, you can self-host audio or video easily. However, not many webhosts will allow you to upload files of large size.</p>
+							
+							<ol>
+								<li>While adding a post, click <strong>Add Media</strong>. Go to <strong>Insert Media &gt; Upload Files</strong>.</li>
+								<li>Select and upload your audio or video file. </li>
+								<li>Make sure <strong>Embed Media Player</strong> is selected in "Embed or Link" option.</li>
+								<li>Click <strong>Insert into post</strong>.</li>
+							</ol>
+							
+							<p>For advanced usage, check out the <a href="http://codex.wordpress.org/Audio_Shortcode" target="_blank">Audio</a> and 
+								<a href="http://codex.wordpress.org/Video_Shortcode" target="_blank">Video</a> sections of the WordPress docs.</p>
+
+
+				</section>
+				
+
+				
+				<section id="bbpress">
+					<div class="page-header">
+						<h1>bbPress &amp; Setup</h1>
+					</div>
+				
+					<p>SmartMag can be used with bbPress with fully compatibility offered since version 1.5.</p>
+
+					<p><span class="label label-info"><strong>Note</strong></span> This section assumes you already have bbPress Forum Plugin activated.</p>
+
+					<h3>Adding Categories &amp; Forums</h3>
+
+					<p>SmartMag's default bbPress layout is based on traditional forum hierarchy. You need to create categories and forums.</p>
+
+					<h4>Create categories:</h4>
+
+					<ol>
+						<li>Go to <strong>Forums &gt; New Forum</strong>.</li>
+						<li>Enter the required info and on the right side, under <strong>Forum Attributes</strong>, select <strong>Category</strong> next to "Type".</li>
+						<li>Publish.</li>
+					</ol>
+
+					<h4>Create forums:</h4>
+
+					<ol>
+						<li>Go to <strong>Forums &gt; New Forum</strong>.</li>
+						<li>Enter the required info and on the right side, under <strong>Forum Attributes</strong>, next to <strong>Parent</strong>, select the category you created in the instructions above.</li>
+						<li>Publish.</li>
+					</ol>
+
+					<h3 id="login-modal">Adding Login/Register Button to Navigation</h3>
+
+					<ol>
+						<li>Go to <strong>Appearance &gt; Menus</strong> and edit your main navigation menu.</li>
+						<li>On the right side, click on <strong>Links</strong>, enter URL as <strong>#user-login</strong> (or a link to your login page but it must include #user-login at the end). In Link Text, enter:
+
+							<code>&lt;i class="fa fa-user"&gt;&lt;/i&gt;</code></li>
+
+						<li>Save your menu.</li>
+					</ol>
+
+					<h3>Login Widget for Sidebar</h3>
+
+					<p>Please make sure to sure <strong>(bbPress) Bunyad Login Widget</strong> for the sidebar. There's another widget with a similar name. Make sure the one you use has the name <strong>Bunyad</strong> in it.
+					</p>
+
+
+				</section>
+
+
+
+				
+				<section id="credits">
+					<div class="page-header">
+						<h1>Copyright &amp; Credits</h1>
+					</div>
+				
+					<h3>Demo Images Authors <small>creative commons, not included</small></h3>
+					
+						<ul>
+							<li>Demo Images (Not Included): (flickr CC-BY-2.0) Yasser Alghofily, Daniel Zedda, Jonathan Kos-Read, Alejandro Pinto, Jim H., Luis Hernandez, William Cho, Lucas Zallio, Mark Sebastian, Lies Thru a Lens.</li>
+						</ul>
+						
+					<h3>Other Resources Used</h3>
+						<ul>
+							<li><a href="http://fitvidsjs.com/">FitVids</a></li>
+							<li><a href="https://github.com/woothemes/flexslider">FlexSlider</a></li>
+							<li><a href="http://onehackoranother.com/projects/jquery/tipsy/">jQuery Tipsy</a></li>
+							<li><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">prettyPhoto</a></li>
+							<li><a href="http://gsgd.co.uk/sandbox/jquery/easing/">jQuery Easing</a></li>
+							<li><a herf="http://fontawesome.io/">FontAwesome</a></li>
+						</ul>
+				
+				</section>
+
+			</div>
+		</div>
+	</div>
+	<!-- Footer
+		================================================== -->
+	<footer class="footer">
+		<div class="container">
+			<p>Designed and built by <a href="http://theme-sphere.com" target="_blank">ThemeSphere</a>.</p>
+			<p>Documentation based on the CC 3.0 licensed <a href="http://blog.getbootstrap.com">Twitter Bootstrap</a> and Apache 2.0 licensed <a href="http://bootswatch.com/flatly/">Flatly</a>.</p>
+			<ul class="footer-links">
+				<li><a href="http://theme-sphere.com">Support</a></li>
+				<li class="muted">&middot;</li>
+				<li><a href="https://twitter.com/Theme_Sphere">Twitter</a></li>
+			</ul>
+		</div>
+	</footer>
+	<!-- Le javascript
+		================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap-transition.js"></script>
+	<script src="assets/js/bootstrap-alert.js"></script>
+	<script src="assets/js/bootstrap-modal.js"></script>
+	<script src="assets/js/bootstrap-dropdown.js"></script>
+	<script src="assets/js/bootstrap-scrollspy.js"></script>
+	<script src="assets/js/bootstrap-tab.js"></script>
+	<script src="assets/js/bootstrap-tooltip.js"></script>
+	<script src="assets/js/bootstrap-popover.js"></script>
+	<script src="assets/js/bootstrap-button.js"></script>
+	<script src="assets/js/bootstrap-collapse.js"></script>
+	<script src="assets/js/bootstrap-carousel.js"></script>
+	<script src="assets/js/bootstrap-typeahead.js"></script>
+	<script src="assets/js/bootstrap-affix.js"></script>
+	<script src="assets/js/holder/holder.js"></script>
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+	<script src="assets/js/application.js"></script>
+</body>
+</html>

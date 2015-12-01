@@ -1,0 +1,464 @@
+# Copyright (C) 2015 Bunyad Widgets
+# This file is distributed under the same license as the Bunyad Widgets package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bunyad Widgets 1.0.6\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/bunyad-widgets\n"
+"POT-Creation-Date: 2015-09-21 14:35:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: widgets/widget-about.php:10
+msgid "\"About\" site widget for footer."
+msgstr ""
+
+#: widgets/widget-about.php:66 widgets/widget-bbp-login.php:170
+#: widgets/widget-blocks.php:88 widgets/widget-comments.php:116
+#: widgets/widget-flickr.php:134 widgets/widget-latest-posts.php:143
+#: widgets/widget-latest-reviews.php:144 widgets/widget-popular-posts.php:129
+#: widgets/widget-twitter.php:154
+msgid "Title:"
+msgstr ""
+
+#: widgets/widget-about.php:72
+msgid "About Site:"
+msgstr ""
+
+#: widgets/widget-about.php:79
+msgid "Logo Text:"
+msgstr ""
+
+#: widgets/widget-about.php:85
+msgid "OR Logo Image:"
+msgstr ""
+
+#: widgets/widget-ads.php:10
+msgid "Advertisements widget for all the ads supported."
+msgstr ""
+
+#: widgets/widget-ads.php:56
+msgid "Title: (Optional)"
+msgstr ""
+
+#: widgets/widget-ads.php:62
+msgid "Ad Code:"
+msgstr ""
+
+#: widgets/widget-bbp-login.php:19
+msgid ""
+"A simple login form with optional links to sign-up and lost password pages."
+msgstr ""
+
+#: widgets/widget-bbp-login.php:22
+msgid "(bbPress) Bunyad Login Widget"
+msgstr ""
+
+#: widgets/widget-bbp-login.php:69 widgets/widget-bbp-login.php:94
+msgid "Log In"
+msgstr ""
+
+#: widgets/widget-bbp-login.php:74
+msgctxt "bbPress"
+msgid "Your Username"
+msgstr ""
+
+#: widgets/widget-bbp-login.php:80
+msgctxt "bbPress"
+msgid "Your Password"
+msgstr ""
+
+#: widgets/widget-bbp-login.php:87 widgets/widget-bbp-login.php:88
+msgid "Lost password?"
+msgstr ""
+
+#: widgets/widget-bbp-login.php:105
+msgctxt "bbPress"
+msgid "Don't have an account?"
+msgstr ""
+
+#: widgets/widget-bbp-login.php:106
+msgctxt "bbPress"
+msgid "Register Now!"
+msgstr ""
+
+#: widgets/widget-bbp-login.php:118
+msgctxt "bbPress"
+msgid "Welcome back, "
+msgstr ""
+
+#: widgets/widget-bbp-login.php:123
+msgctxt "bbPress"
+msgid "Edit Profile"
+msgstr ""
+
+#: widgets/widget-bbp-login.php:125
+msgctxt "bbPress"
+msgid "Subscriptions"
+msgstr ""
+
+#: widgets/widget-bbp-login.php:127
+msgctxt "bbPress"
+msgid "Favorites"
+msgstr ""
+
+#: widgets/widget-bbp-login.php:175
+msgid "Register URI:"
+msgstr ""
+
+#: widgets/widget-bbp-login.php:180
+msgid "Lost Password URI:"
+msgstr ""
+
+#: widgets/widget-blocks.php:93
+msgid "Number of Posts:"
+msgstr ""
+
+#: widgets/widget-blocks.php:96
+msgid ""
+"Configures posts to show for each listing. Leave empty to use theme default "
+"number of posts."
+msgstr ""
+
+#: widgets/widget-blocks.php:99
+msgid "Sort By:"
+msgstr ""
+
+#: widgets/widget-blocks.php:101
+msgid "Published Date"
+msgstr ""
+
+#: widgets/widget-blocks.php:102
+msgid "Modified Date"
+msgstr ""
+
+#: widgets/widget-blocks.php:103
+msgid "Random"
+msgstr ""
+
+#: widgets/widget-blocks.php:107
+msgid "Latest First - Descending"
+msgstr ""
+
+#: widgets/widget-blocks.php:108
+msgid "Oldest First - Ascending"
+msgstr ""
+
+#: widgets/widget-blocks.php:113
+msgid "Block:"
+msgstr ""
+
+#: widgets/widget-blocks.php:116
+msgid "Listing: Modern Style"
+msgstr ""
+
+#: widgets/widget-blocks.php:117
+msgid "Listing: Grid Overlay Style"
+msgstr ""
+
+#: widgets/widget-blocks.php:118
+msgid "Listing: Timeline Style"
+msgstr ""
+
+#: widgets/widget-blocks.php:122
+msgid "Check docs and demo to choose the right style."
+msgstr ""
+
+#: widgets/widget-blocks.php:125
+msgid "Limit Categories:"
+msgstr ""
+
+#: widgets/widget-blocks.php:138
+msgid ""
+"By default, all categories will be used. Tick categories to limit to a "
+"specific category or categories."
+msgstr ""
+
+#: widgets/widget-blocks.php:141
+msgid "or Limit with Tags: (optional)"
+msgstr ""
+
+#: widgets/widget-blocks.php:145
+msgid "Separate tags with comma. e.g. cooking,sports"
+msgstr ""
+
+#: widgets/widget-blocks.php:148
+msgid "Offset: (Advanced)"
+msgstr ""
+
+#: widgets/widget-blocks.php:151
+msgid ""
+"By specifying an offset as 10 (for example), you can ignore 10 posts in the "
+"results."
+msgstr ""
+
+#: widgets/widget-blocks.php:154
+msgid "Post Types: (Advanced)"
+msgstr ""
+
+#: widgets/widget-blocks.php:157
+msgid ""
+"Only for advanced users! You can use a custom post type here - multiples "
+"supported when separated by comma. Leave empty to use the default format."
+msgstr ""
+
+#: widgets/widget-comments.php:42
+msgid "Latest Comments"
+msgstr ""
+
+#: widgets/widget-comments.php:119
+msgid "Number of comments:"
+msgstr ""
+
+#: widgets/widget-flickr.php:10
+msgid "Display latest photos from flickr."
+msgstr ""
+
+#: widgets/widget-flickr.php:146
+msgid "Number of Photos:"
+msgstr ""
+
+#: widgets/widget-flickr.php:152
+msgid "Tags (comma separated, optional):"
+msgstr ""
+
+#: widgets/widget-latest-posts.php:42 widgets/widget-latest-reviews.php:44
+#: widgets/widget-tabbed-recent.php:294
+msgid "Recent Posts"
+msgstr ""
+
+#: widgets/widget-latest-posts.php:148
+msgid "Limit to Category:"
+msgstr ""
+
+#: widgets/widget-latest-posts.php:150
+msgid "-- Not Limited --"
+msgstr ""
+
+#: widgets/widget-latest-posts.php:162
+msgid "Type:"
+msgstr ""
+
+#: widgets/widget-latest-posts.php:165
+msgid "List"
+msgstr ""
+
+#: widgets/widget-latest-posts.php:166
+msgid "Image Blocks"
+msgstr ""
+
+#: widgets/widget-latest-posts.php:167
+msgid "Numbered List (No Thumbnails)"
+msgstr ""
+
+#: widgets/widget-latest-posts.php:176 widgets/widget-latest-reviews.php:147
+#: widgets/widget-popular-posts.php:132
+msgid "Number of posts to show:"
+msgstr ""
+
+#: widgets/widget-latest-reviews.php:151
+msgid "Order By:"
+msgstr ""
+
+#: widgets/widget-latest-reviews.php:153
+msgid "Date"
+msgstr ""
+
+#: widgets/widget-latest-reviews.php:154
+msgid "Rating"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:26
+msgid ""
+"Please install Jetpack plugin and activate the WordPress.com Stats module."
+msgstr ""
+
+#: widgets/widget-popular-posts.php:137
+msgid "Sorting Type:"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:139
+msgid "Comments"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:147
+msgid "From past days:"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:151
+msgid ""
+"Note that it may take a few hours before views are counted. It will fallback "
+"to comments sorting type until then."
+msgstr ""
+
+#: widgets/widget-social-count.php:10
+msgid "Twitter/facebook counter and RSS subscribe buttons."
+msgstr ""
+
+#: widgets/widget-social-count.php:27
+msgid "Subscribe via RSS"
+msgstr ""
+
+#: widgets/widget-social-count.php:28
+msgid "rss"
+msgstr ""
+
+#: widgets/widget-social-count.php:29
+msgid "feed"
+msgstr ""
+
+#: widgets/widget-social-count.php:41
+msgid "Connect at Facebook"
+msgstr ""
+
+#: widgets/widget-social-count.php:43
+msgid "fans"
+msgstr ""
+
+#: widgets/widget-social-count.php:55 widgets/widget-twitter.php:52
+msgid "Follow on twitter"
+msgstr ""
+
+#: widgets/widget-social-count.php:57
+msgid "followers"
+msgstr ""
+
+#: widgets/widget-social-count.php:192
+msgid "Twitter User:"
+msgstr ""
+
+#: widgets/widget-social-count.php:200 widgets/widget-twitter.php:151
+msgid "Create your Twitter App"
+msgstr ""
+
+#: widgets/widget-social-count.php:203 widgets/widget-twitter.php:166
+msgid "Consumer Key"
+msgstr ""
+
+#: widgets/widget-social-count.php:209 widgets/widget-twitter.php:172
+msgid "Consumer Secret"
+msgstr ""
+
+#: widgets/widget-social-count.php:215 widgets/widget-twitter.php:178
+msgid "Access Token"
+msgstr ""
+
+#: widgets/widget-social-count.php:221 widgets/widget-twitter.php:184
+msgid "Access Token Secret"
+msgstr ""
+
+#: widgets/widget-social-count.php:228
+msgid "Facebook Page:"
+msgstr ""
+
+#: widgets/widget-social-count.php:234
+msgid "Show RSS"
+msgstr ""
+
+#: widgets/widget-tabbed-recent.php:10
+msgid "Tabs: Recent, category1, category2..."
+msgstr ""
+
+#: widgets/widget-tabbed-recent.php:45
+msgid ""
+"Recent tabs widget still need to be configured! Add tabs, add a title, and "
+"select type for each tab in widgets area."
+msgstr ""
+
+#: widgets/widget-tabbed-recent.php:277
+msgid "Tab #%s Title:"
+msgstr ""
+
+#: widgets/widget-tabbed-recent.php:284
+msgid "Tab #%s Category:"
+msgstr ""
+
+#: widgets/widget-tabbed-recent.php:295
+msgid "Popular Posts"
+msgstr ""
+
+#: widgets/widget-tabbed-recent.php:296
+msgid "Top Reviews"
+msgstr ""
+
+#: widgets/widget-tabbed-recent.php:297
+msgid "Recent Comments"
+msgstr ""
+
+#: widgets/widget-tabbed-recent.php:298
+msgid "Use a Tag"
+msgstr ""
+
+#: widgets/widget-tabbed-recent.php:311
+msgid "Category"
+msgstr ""
+
+#: widgets/widget-tabbed-recent.php:318
+msgid "Tab #%s Tag:"
+msgstr ""
+
+#: widgets/widget-tabbed-recent.php:322
+msgid "Posts:"
+msgstr ""
+
+#: widgets/widget-tabbed-recent.php:324
+msgid "remove"
+msgstr ""
+
+#: widgets/widget-tabbed-recent.php:329
+msgid "Add More Tabs"
+msgstr ""
+
+#: widgets/widget-tabber.php:13
+msgid "Advanced tabber that supports all widgets."
+msgstr ""
+
+#: widgets/widget-tabber.php:108
+msgid ""
+"<strong>WARNING:</strong> Required plugin \"Custom Sidebars\" is missing. "
+"The plugin is needed to create a custom sidebar for this widget."
+msgstr ""
+
+#: widgets/widget-tabber.php:111
+msgid ""
+"To use this widget, first <strong>create a new sidebar</strong>. Then add "
+"widgets to the new sidebar. Finally select the newly created sidebar below."
+msgstr ""
+
+#: widgets/widget-tabber.php:113
+msgid "Select the sidebar:"
+msgstr ""
+
+#: widgets/widget-twitter.php:52
+msgid "Follow"
+msgstr ""
+
+#: widgets/widget-twitter.php:160
+msgid "Username:"
+msgstr ""
+
+#: widgets/widget-twitter.php:190
+msgid "Number of Tweets:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Bunyad Widgets"
+msgstr ""
+
+#. #-#-#-#-#  bunyad-widgets.pot (Bunyad Widgets 1.0.6)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  bunyad-widgets.pot (Bunyad Widgets 1.0.6)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://theme-sphere.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Bunyad Widgets add several widgets for ThemeSphere themes."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeSphere"
+msgstr ""

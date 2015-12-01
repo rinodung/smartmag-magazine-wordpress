@@ -1,0 +1,271 @@
+# Copyright (C) 2015 Bunyad Page Builder
+# This file is distributed under the same license as the Bunyad Page Builder package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bunyad Page Builder 1.3.7.6-mod\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/bunyad-siteorigin-panels\n"
+"POT-Creation-Date: 2015-09-21 14:35:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: bunyad-siteorigin-panels.php:83
+msgid "Custom Home Page Builder"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:84
+msgid "Home Page"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:96 bunyad-siteorigin-panels.php:105
+#: bunyad-siteorigin-panels.php:362
+msgid "Page Builder"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:273
+msgid "Insert"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:274
+msgid "cancel"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:275
+msgid "Delete"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:276
+msgid "Duplicate"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:277
+msgid "Edit"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:278
+msgid "Done"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:279
+msgid "Undo"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:280
+msgid "Add"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:283
+msgid "Columns deleted"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:284
+msgid "Widget deleted"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:285
+msgid ""
+"Are you sure you want to load this layout? It will overwrite your current "
+"page."
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:286
+msgid "Edit %s Widget"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:287
+msgid "The string is not formed correctly. Correct format example: 1/2+1/2"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:288
+msgid "Columns dont add to full width. Please recheck. Amounted to: {total}%"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:766
+msgid "Edit Home Page"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:847
+msgid "Untitled"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:848
+msgid "Unpublished"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:853
+msgid "Clone Page: %s"
+msgstr ""
+
+#: bunyad-siteorigin-panels.php:866
+msgid "Clone: Current Home Page"
+msgstr ""
+
+#: tpl/help.php:2
+msgid ""
+"You can use SiteOrigin Page Builder to create home and sub pages, filled "
+"your own widgets."
+msgstr ""
+
+#: tpl/help.php:3
+msgid "The page layouts are responsive and fully customizable."
+msgstr ""
+
+#: tpl/help.php:6
+msgid ""
+"Read the <a href='%s' target='_blank'>full documentation</a> on SiteOrigin."
+msgstr ""
+
+#: tpl/metabox-panels.php:56
+msgid "Add Widget"
+msgstr ""
+
+#: tpl/metabox-panels.php:57 tpl/metabox-panels.php:98
+msgid "Add Row"
+msgstr ""
+
+#: tpl/metabox-panels.php:59
+msgid "Prebuilt Layouts"
+msgstr ""
+
+#: tpl/metabox-panels.php:66
+msgid "Add New Widget"
+msgstr ""
+
+#: tpl/metabox-panels.php:99
+msgid "Columns"
+msgstr ""
+
+#: tpl/metabox-panels.php:101
+msgid "One full-width column"
+msgstr ""
+
+#: tpl/metabox-panels.php:102
+msgid "Two equal columns"
+msgstr ""
+
+#: tpl/metabox-panels.php:103
+msgid "Three equal columns"
+msgstr ""
+
+#: tpl/metabox-panels.php:104
+msgid "Four equal columns"
+msgstr ""
+
+#: tpl/metabox-panels.php:105
+msgid "Five equal columns"
+msgstr ""
+
+#: tpl/metabox-panels.php:107
+msgid "Half + One Fourth + One Fourth (1/2+1/4+1/4)"
+msgstr ""
+
+#: tpl/metabox-panels.php:108 tpl/metabox-panels.php:109
+msgid "Two Third + One Third (2/3+1/3)"
+msgstr ""
+
+#: tpl/metabox-panels.php:111
+msgid "Custom (below)"
+msgstr ""
+
+#: tpl/metabox-panels.php:114
+msgid "- OR - Custom:"
+msgstr ""
+
+#: tpl/metabox-panels.php:118
+msgid "Insert Prebuilt Page Layout"
+msgstr ""
+
+#: tpl/metabox-panels.php:119
+msgid "Page Layout"
+msgstr ""
+
+#: tpl/metabox-panels.php:121
+msgid "Select Layout"
+msgstr ""
+
+#: tpl/metabox-panels.php:125
+msgid "Untitled Layout"
+msgstr ""
+
+#: tpl/metabox-panels.php:136
+msgid "none"
+msgstr ""
+
+#: tpl/options.php:3
+msgid "SiteOrigin Page Builder"
+msgstr ""
+
+#: widgets/bunyad-widgets.php:9
+msgid "Separator - Space or Line"
+msgstr ""
+
+#: widgets/bunyad-widgets.php:10
+msgid "Create an empty space or line separator."
+msgstr ""
+
+#: widgets/bunyad-widgets.php:45
+msgid "Important:"
+msgstr ""
+
+#: widgets/bunyad-widgets.php:46
+msgid ""
+"This block automatically shows the sub-categories under a parent category. "
+"Only a parent category needs to be selected."
+msgstr ""
+
+#: widgets/bunyad-widgets.php:49
+msgid "Separator Type:"
+msgstr ""
+
+#: widgets/bunyad-widgets.php:51
+msgid "Line"
+msgstr ""
+
+#: widgets/bunyad-widgets.php:52
+msgid "Space"
+msgstr ""
+
+#: widgets/bunyad-widgets.php:53
+msgid "Half Height Line"
+msgstr ""
+
+#: widgets/bunyad-widgets.php:54
+msgid "Half Height Space"
+msgstr ""
+
+#: widgets/bunyad-widgets.php:71
+msgid "Rich Text - Visual Editor"
+msgstr ""
+
+#: widgets/bunyad-widgets.php:72
+msgid "Visual editor for text and HTML."
+msgstr ""
+
+#: widgets/bunyad-widgets.php:139
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Bunyad Page Builder"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://theme-sphere.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A drag and drop, responsive page builder that simplifies building your "
+"website."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeSphere & Greg Priday (Original)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://siteorigin.com"
+msgstr ""

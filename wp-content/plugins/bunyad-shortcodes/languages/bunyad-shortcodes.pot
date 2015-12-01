@@ -1,0 +1,354 @@
+# Copyright (C) 2015 Bunyad Shortcodes
+# This file is distributed under the same license as the Bunyad Shortcodes package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bunyad Shortcodes 1.0.7\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/bunyad-shortcodes\n"
+"POT-Creation-Date: 2015-09-21 14:35:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/tinymce/editor-plugin.php:106 admin/tinymce/editor-plugin.php:107
+#: admin/tinymce/editor-plugin.php:218
+msgid "Shortcode: "
+msgstr ""
+
+#: admin/tinymce/editor-plugin.php:143 admin/tinymce/editor-plugin.php:255
+msgid "INSERT HERE"
+msgstr ""
+
+#: admin/tinymce/editor-plugin.php:156 admin/tinymce/editor-plugin.php:183
+#: admin/tinymce/editor-plugin.php:278
+msgid "Shortcodes"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/accordions.php:7
+msgid "Add More Accordions"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/accordions.php:11
+msgid "Accordion %number%"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/accordions.php:14
+#: admin/tinymce/shortcode-dialogs/toggles.php:14
+msgid "Title:"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/accordions.php:19
+#: admin/tinymce/shortcode-dialogs/toggles.php:19
+msgid "Default:"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/accordions.php:21
+#: admin/tinymce/shortcode-dialogs/toggles.php:21
+msgid "Whether to show or hide the content by default."
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/accordions.php:25
+#: admin/tinymce/shortcode-dialogs/columns.php:51
+#: admin/tinymce/shortcode-dialogs/toggles.php:25
+msgid "Content:"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/box.php:7
+msgid "Content"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/box.php:13
+msgid "Alert Type"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/box.php:17
+msgid "Info"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/box.php:18
+msgid "Warning"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/box.php:19
+msgid "Success"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/box.php:20
+msgid "Error"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/box.php:21
+msgid "Download Arrow"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/button.php:15
+msgid "Link To"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/button.php:18
+msgid "Example: http://google.com."
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/button.php:22
+msgid "Button Text"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/button.php:28
+msgid "Button Size"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/button.php:31
+#: admin/tinymce/shortcode-dialogs/social-icons.php:12
+msgid "Small"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/button.php:31
+#: admin/tinymce/shortcode-dialogs/social-icons.php:13
+msgid "Medium"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/button.php:31
+#: admin/tinymce/shortcode-dialogs/social-icons.php:14
+msgid "Large"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/button.php:35
+msgid "Preset Styles"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/button.php:39
+msgid "Either choose a pre-defined style or customize below."
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/button.php:43
+msgid "Open In"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/button.php:46
+msgid "Same Tab"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/button.php:46
+msgid "New Tab"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/button.php:51
+msgid "Or Customize (Optional)"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/button.php:55
+msgid "Text Color"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/button.php:61
+msgid "Background Color"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/columns.php:32
+msgid "Pre-defined Examples:"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/columns.php:33
+msgid "Three equal columns"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/columns.php:34
+msgid "Four equal columns"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/columns.php:35
+msgid "Five equal columns"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/columns.php:39
+msgid "Add Another Column"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/columns.php:43
+msgid "Column %number%"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/columns.php:46
+msgid "Size:"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/lists.php:13
+msgid "List Style"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/lists.php:16
+msgid "Arrow"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/lists.php:17
+msgid "Check"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/lists.php:18
+msgid "Edit"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/lists.php:19
+msgid "Folder"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/lists.php:20
+msgid "File"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/lists.php:21
+msgid "Heart"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/lists.php:26
+msgid "Ordered List?"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/lists.php:28
+#: lib/admin/option-renderer.php:126
+msgid "No"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/lists.php:28
+#: lib/admin/option-renderer.php:126
+msgid "Yes"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/lists.php:40
+msgid "Add More Items"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/lists.php:44
+msgid "Item <span>%number%</span>:"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:8
+msgid "Icons Size"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:15
+msgid "Extra Large"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:20
+msgid "Backgrounds"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:24
+msgid "Transparent"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:25
+msgid "Colored"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:39
+msgid "Add Icon"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:45
+msgid "Icon Type:"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:47
+msgid "- Select -"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:48
+msgid "Facebook"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:49
+msgid "Twitter"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:50
+msgid "LinkedIn"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:51
+msgid "Google+"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:52
+msgid "Pinterest"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:53
+msgid "Dribbble"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:54
+msgid "YouTube"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:55
+msgid "Instagram"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:61
+msgid "Icon Name:"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:66
+msgid "Link:"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:71
+msgid "Custom Text Color:"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/social-icons.php:76
+msgid "Custom Background Color:"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/tabs.php:7
+msgid "Add More Tabs"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/tabs.php:12
+msgid "Tab #<span>%number%</span> Title:"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/tabs.php:17
+msgid "Tab #<span>%number%</span> Content:"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/toggles.php:7
+msgid "Add More Toggles"
+msgstr ""
+
+#: admin/tinymce/shortcode-dialogs/toggles.php:11
+msgid "Toggle Box %number%"
+msgstr ""
+
+#: lib/admin/option-renderer.php:207
+msgid "Upload"
+msgstr ""
+
+#: lib/admin/option-renderer.php:235
+msgid "Remove"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Bunyad Shortcodes"
+msgstr ""
+
+#. #-#-#-#-#  bunyad-shortcodes.pot (Bunyad Shortcodes 1.0.7)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  bunyad-shortcodes.pot (Bunyad Shortcodes 1.0.7)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://theme-sphere.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Bunyad Shortcodes adds multiple shortcode functionality for ThemeSphere "
+"themes."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeSphere"
+msgstr ""

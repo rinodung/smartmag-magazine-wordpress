@@ -1,0 +1,363 @@
+/**
+ * =Dark Skin - Relies on default CSS and overrides the rules. 
+ * ----------------------------------------------------------------------------
+ */
+ 
+body {
+	background: #18191b;
+	color: #82888b;
+}
+
+body.boxed { background: #040405; }
+
+.boxed .main-wrap, .modal { background: #18191b; }
+
+
+h1, h2, h3, h4, h5, h6, .page .post-header h1, .page .post-content h1, .page .post-content h2, .page .post-content h3,
+.page .post-content h4, .page .post-content h5, .page .post-content h6, .post-content h1, .post-content h2, .post-content h3,
+.post-content h4, .post-content h5, .post-content h6.gallery-title, .section-head, .list-timeline .heading, .post-share .text {
+	color: #d8dae0;
+}
+
+input, textarea, select {
+	background: #202224;
+	border-color: #292b2c;
+}
+
+input:focus, textarea:focus, select:focus { border-color: #36393a; }
+
+#comment-submit, .submit-button { background: transparent; }
+
+a, .highlights h2 a, .block.posts a, .main-head .title a, .author-info [rel="author"], .breadcrumbs a, .gallery-block .carousel .title a,
+.modal-header .close { 
+	color: #d8dae0;
+}
+
+.main-featured .pages a { display: none; }
+
+.top-bar {
+	background: #121314;
+	background: rgba(0, 0, 0, 0.2);
+	border-bottom-color: #1d1e20;
+}
+
+.trending-ticker .heading, .breadcrumbs .location { 
+	color: #637075;
+}
+
+.trending-ticker li { color: #9ea4a7; }
+
+.social-icons .icon.fa {
+	background: transparent;
+	color: #9ea4a7;
+	font-size: 13px;
+}
+
+.top-bar .search .fa-search { color: #9ea4a7; }
+
+.top-bar .search .query { background: #1d1f20; }
+.search .query, .searchform input, .searchform #s { border-color: #1d1f20; }
+
+/* Navigation Overrides */
+.navigation, .main .sidebar .widgettitle, .tabbed .tabs-list {
+	background: #111214;
+}
+
+.navigation { border-bottom-color: #111214; }
+
+.navigation.sticky { background: rgba(17, 18, 20, 0.9); }
+
+
+.navigation .menu li > a:after {
+	text-shadow: none;
+	font-size: 13px;
+}
+
+.navigation a, .main .sidebar .widgettitle, .tabbed .tabs-list a {
+	color: #b7b9be;
+}
+
+.navigation .menu > li:hover, .navigation .menu ul, .navigation .mega-menu { background: #0a0b0e; }
+.navigation .menu li li:hover, .navigation .menu li li.current-menu-item, .navigation .mega-menu .sub-nav li:hover,
+.navigation .menu .sub-nav li.current-menu-item, .navigation .menu .shopping-cart > a, .navigation .menu .user-login a {
+	background: #111214; 
+}
+
+.navigation .menu > li li a, .navigation .mega-menu.links > li > a, .navigation .mega-menu.links > li li a, .mega-menu .heading,
+.mega-menu .posts-list .content, .navigation .mega-menu .sub-nav li a { 
+	border-color: #131416; 
+}
+
+.mega-menu .sub-nav { background: #070709; }
+
+.breadcrumbs { background: #202224; }
+
+.main-featured {
+	margin-top: 0;
+	background: #121314;
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid #1d1e20;
+}
+
+.main-featured .slider .caption, .main-featured .blocks h3, .featured .caption {
+		
+		background: -moz-linear-gradient(top,  rgba(25,35,45,0) 0%, rgba(16,18,20,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(25,35,45,0)), color-stop(100%,rgba(16,18,20,1))); /* Chrome, Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(25,35,45,0) 0%,rgba(16,18,20,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -ms-linear-gradient(top,  rgba(25,35,45,0) 0%,rgba(16,18,20,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(25,35,45,0) 0%,rgba(16,18,20,1) 100%); /* W3C */
+}
+
+/* Main Border Color Overrides */
+
+code, pre, .main .sidebar:before, .sidebar .theiaStickySidebar:before, .highlights-box .column.half:first-child,  .posts-list .content, .highlights .excerpt, 
+.highlights .block.posts, .block.posts li, .widget li, .widget_categories .children li, .news-focus .posts-list, .main-content .post-meta, .post-share, .listing-alt article, 
+.list-timeline .heading, .list-timeline, .post-content > .review-box, .review-box .verdict-box, .review-box.stars li, .post-content blockquote, 
+.sc-tabs-panes, .sc-tabs a, .sc-accordion-title, .sc-toggle-title, .sc-accordion-title:first-child, .sc-toggle-title:first-child, .sc-accordion-pane, 
+.sc-toggle-content, .comments-list .comment-content, .author .author-info, .navigate-posts, .navigate-posts .next, .comments-list .pingback,
+.post-content .pullquote, .widget_display_stats dl, .listing-classic > .post {
+	border-color: #242629;
+}
+
+.list-timeline .heading:before, hr, hr.separator, .widget_display_stats dl {
+	background: #242629;
+}
+
+.gallery-title, .section-head, .news-focus .heading, .modal-header, .widget_display_stats dd {
+	background: #111214;
+	border-color: #242629;
+}
+
+.news-focus .heading .active:after { border-bottom-color: #18191b; }
+.news-focus .heading .active:before { border-bottom-color: #242629; }
+
+
+.highlights .meta {
+	background: #141516;
+}
+
+.main-pagination .page-numbers, .main-pagination a {
+	background: #202224;
+	color: #9ea4a7;
+}
+
+.main-pagination .current, .main-pagination a:hover { color: #d8dae0; }
+
+/* Post Content */
+
+.post-content a:hover { color: #9ea4a7; }
+
+.post-content blockquote, code, pre { background: #111214; }
+
+.post .post-content > p:first-child { color:  #9ea4a7; }
+
+.post-content > .review-box, .post-slideshow .post-pagination-next { background: #111214; }
+.review-box .rating-bar, .review-box .bar { background: #18191b; }
+.review-box .main-stars { color: #18191b; }
+
+.post-slideshow { background: #202224; }
+
+
+/* Shortcodes */
+
+.sc-accordion-title a:before, .sc-toggle-title a:before { background: #202224; }
+.sc-tabs a { background: #202224; }
+.sc-tabs .active a { background: #111214; }
+.sc-tabs li:first-child a { border-left-color: #242629; }
+
+.sc-accordion-title a:after, .sc-toggle-title a:after { color: #82888b; }
+
+
+.sc-button, .button { background: #111214; }
+.sc-button-red { background: #a02020; }
+
+/* tables */
+th, td {
+	background: transparent;
+	border-color: #242629;
+}
+
+th { background: #0A0b0b; }
+
+tr:nth-child(odd) td { background: #0f1113; }
+
+
+/* footer */
+.main-footer { background: #111214; }
+.main-footer .widgettitle, .main-footer .posts-list .content { border-color: #242629; }
+
+.main-footer .feedburner input {
+	background: #1d1f20;
+	color: #9ea4a7;
+}
+
+.lower-foot { background: #0a0b0e; }
+
+/* bbPress */
+
+#bbpress-forums li.bbp-body ul.topic, #bbpress-forums ul.bbp-topics, #bbpress-forums li.bbp-body ul.forum, #bbpress-forums .single-post,
+#bbpress-forums div.bbp-the-content-wrapper div.quicktags-toolbar, #bbpress-forums div.bbp-the-content-wrapper input, #bbpress-forums fieldset.bbp-form,
+#bbp-search-results .single-post:last-child, .bbp-login-form .fa, .bbp-login-form.widget-login .input-group input:focus, .bbp-register-info, 
+#bbpress-forums .bbp-body > .single-forum:first-child, #bbpress-forums #bbp-your-profile fieldset fieldset.password span.description, .bbp-login-form .fa, 
+.bbp-register-info {
+	border-color: #242629;
+}
+
+#bbpress-forums div.bbp-the-content-wrapper input { 
+	-webkit-box-shadow: none;
+	box-shadow: none; 
+}
+
+#bbpress-forums div.odd, #bbpress-forums ul.odd, #bbpress-forums li.bbp-body ul.topic, #bbpress-forums li.bbp-body ul.forum, div.bbp-template-notice.info,
+#bbpress-forums div.even, #bbpress-forums ul.even {
+	background: transparent;
+}
+
+div.bbp-template-notice, div.indicator-hint, div.bbp-template-notice.info, #bbpress-forums div.bbp-the-content-wrapper div.quicktags-toolbar, 
+#bbpress-forums div.bbp-the-content-wrapper input, #bbpress-forums div.bbp-search-form, #bbpress-forums #bbp-single-user-details #bbp-user-navigation li.current a, 
+#bbpress-forums #bbp-your-profile fieldset fieldset.password span.description, .bbp-login-form .fa, .bbp-register-info {
+	background: #111214;
+}
+
+#bbpress-forums .status-closed, #bbpress-forums .status-closed a { color: #6e6e6f; }
+
+#bbpress-forums #bbp-search-form #bbp_search, #bbpress-forums #bbp-your-profile fieldset input, #bbpress-forums #bbp-your-profile fieldset textarea { 
+	background: #202224;
+	border-color: #292b2c;
+}
+
+.forum-cat .normal { color: #9ea4a7; }
+
+
+/* WooCommerce */
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover, .woocommerce-page div.product .woocommerce-tabs ul.tabs li a:hover,
+.woocommerce table.shop_table th, .woocommerce-page table.shop_table th {
+	color: #9ea4a7;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a { 
+	background: #202224;
+	color: inherit; 
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a, .order-select .fa { 
+	background: #111214;
+	color: inherit; 
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text, .woocommerce-page #reviews #comments ol.commentlist li .comment-text,
+.woocommerce div.product .woocommerce-tabs .panel, .woocommerce-page div.product .woocommerce-tabs .panel, 
+.woocommerce div.product .woocommerce-tabs ul.tabs li a, .woocommerce div.product .woocommerce-tabs ul.tabs li:first-child a, 
+.woocommerce div.product form.cart, .woocommerce #content div.product form.cart, .woocommerce-page div.product form.cart, 
+.woocommerce-page #content div.product form.cart, .cart .quantity input.plus, .cart .quantity input.minus, .woocommerce .cart .quantity input.qty,
+.woocommerce table.shop_table th, .woocommerce-page table.shop_table th, .woocommerce table.shop_table tr td, .woocommerce-page table.shop_table tr td,
+.woocommerce .cart_totals h2, .woocommerce-page .cart_totals h2, .woocommerce .shipping_calculator h2, .woocommerce-page .shipping_calculator h2,
+.woocommerce .addresses .title h3, .woocommerce-page .addresses .title h3, .cart_totals .order-total, .woocommerce table.shop_table tfoot td, 
+.woocommerce table.shop_table tfoot th, .woocommerce-page table.shop_table tfoot td, .woocommerce-page table.shop_table tfoot th, 
+.woocommerce .checkout .shop_table tfoot tr:last-child td, .woocommerce-page .checkout .shop_table tfoot tr:last-child td, 
+.woocommerce .shop_table.order_details tr:last-child tfoot td, .woocommerce-page .shop_table.order_details tfoot tr:last-child td,
+.woocommerce #payment ul.payment_methods, .woocommerce-page #payment ul.payment_methods, .woocommerce #payment div.form-row,
+.woocommerce-page #payment div.form-row, .woocommerce form.login, .woocommerce form.checkout_coupon, .woocommerce form.register, 
+.woocommerce-page form.login, .woocommerce-page form.checkout_coupon, .woocommerce-page form.register, .order-select > span, .order-select .drop, 
+.order-select .drop li a {
+	border-color: #242629;
+}
+
+.woocommerce table.cart td.actions .coupon .input-text, .woocommerce #content table.cart td.actions .coupon .input-text, 
+.woocommerce-page table.cart td.actions .coupon .input-text, .woocommerce-page #content table.cart td.actions .coupon .input-text,
+.woocommerce .form-row .chosen-container-single .chosen-single {
+	border-color: #292b2c;		
+}
+
+.woocommerce .form-row .chosen-container-single .chosen-single, .order-select .drop, .woocommerce .widget_price_filter .price_slider_amount,
+.order-select > span {
+	background: #202224;
+}
+
+
+.cart .quantity input.plus, .cart .quantity input.minus, .woocommerce .quantity .plus:hover, .woocommerce .quantity .minus:hover, 
+.woocommerce-page .quantity .plus:hover, .woocommerce-page .quantity .minus:hover, .woocommerce .woocommerce-message, .woocommerce .woocommerce-error,
+.woocommerce .woocommerce-info, .woocommerce-page .woocommerce-message, .woocommerce-page .woocommerce-error, .woocommerce-page .woocommerce-info, 
+.woocommerce table.shop_table th, .woocommerce-page table.shop_table th, .woocommerce .cart_totals h2, .woocommerce-page .cart_totals h2, 
+.woocommerce .shipping_calculator h2, .woocommerce-page .shipping_calculator h2, .woocommerce .addresses .title h3, .woocommerce-page .addresses .title h3 {
+	background: #111214;
+}
+
+.woocommerce ul.cart_list li:after, .woocommerce ul.product_list_widget li:after, .order-select .drop li:hover, .order-select .drop li.active {
+	background: #242629;
+}
+
+.woocommerce #payment ul.payment_methods, .woocommerce-page #payment ul.payment_methods { background: #111214; }
+.woocommerce #payment div.payment_box, .woocommerce-page #payment div.payment_box { 
+	background: #202224;
+	text-shadow: none; 
+}
+
+.woocommerce #payment div.form-row, .woocommerce-page #payment div.form-row { background: #202224; }
+
+/* Main Accentuation Color Overrides */
+
+.top-bar { border-top-color: #a02020; }
+
+.news-focus .heading, .gallery-title, .related-posts .section-head, 
+.news-focus .heading .subcats a.active, .post-content a, .comments-list .bypostauthor .comment-author a, .error-page 
+.text-404, .main-color, .section-head.prominent, .block.posts .fa-angle-right, a.bbp-author-name,
+.woocommerce form .form-row .required, .woocommerce-page form .form-row .required, .woocommerce ul.products li.product .amount,
+.woocommerce div.product p.price, .cart_totals .order-total .amount, .woocommerce .star-rating:before, 
+.woocommerce-page .star-rating:before, .woocommerce .products .star-rating, .woocommerce #reviews .meta > strong,
+.woocommerce .comment-form-rating .stars a, .woocommerce .star-rating span, .main-stars span:before, .main-stars { 
+	color: #a02020; 
+}
+
+.navigation .menu > li:hover > a, .navigation .menu >.current-menu-item > a, .navigation .menu > .current-menu-parent > a,
+.navigation .menu > .current-menu-ancestor > a, .tabbed .tabs-list .active a, 
+.comment-content .reply, .sc-tabs .active a, .navigation .mega-menu, .woocommerce div.product .woocommerce-tabs ul.tabs li.active a { 
+	border-bottom-color: #a02020; 
+}
+
+.main-featured .cat, .main-featured .pages .flex-active, .rate-number .progress, .highlights .rate-number .progress, 
+.main-pagination .current,.main-pagination a:hover, .cat-title, .sc-button-default:hover, .drop-caps, .review-box .bar,
+.review-box .overall, .listing-alt .content .read-more a, .button, .post-pagination > span,
+body.woocommerce .main-wrap .button, body.woocommerce-page .main-wrap .button, .woocommerce.widget .button,
+.woocommerce #respond input#submit, body.woocommerce .main-wrap .button:hover, body.woocommerce .main-wrap .button:active,
+body.woocommerce-page .main-wrap .button:hover, body.woocommerce-page .main-wrap .button:active,
+.woocommerce.widget .button:active, .woocommerce.widget .button:hover, .woocommerce #respond input#submit:hover,
+.woocommerce #respond input#submit:active, .woocommerce ul.products .add_to_cart_button.added:after,
+.woocommerce span.onsale, .woocommerce-page span.onsale, .woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce .widget_layered_nav ul li.chosen a, .woocommerce-page .widget_layered_nav ul li.chosen a, 
+.shopping-cart .counter, .navigation .menu .cart-widget .button { 
+	background: #a02020; 
+}
+
+.post-content .wpcf7-not-valid-tip, .main-heading, .review-box .heading, .post-header .post-title:before, 
+.highlights h2:before,  div.bbp-template-notice, div.indicator-hint, div.bbp-template-notice.info, 
+.modal-header .modal-title, .woocommerce .woocommerce-message, .woocommerce .woocommerce-error, .woocommerce .woocommerce-info, 
+.woocommerce-page .woocommerce-message, .woocommerce-page .woocommerce-error, .woocommerce-page .woocommerce-info,
+.woocommerce .related h2, .woocommerce-page .related h2, .woocommerce .checkout h3, .woocommerce-account .post-content h2, 
+.woocommerce-checkout .post-content h2, .woocommerce-account form > h3, .woocommerce ul.products li.product h3:before, 
+.woocommerce-page ul.products li.product h3:before, .cross-sells h2, .page-title, .entry-title { 
+	border-left-color: #a02020; 
+}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle { border-color: #a02020; }
+
+@media only screen and (max-width: 767px) { 
+	.navigation .mobile .fa { background: #a02020; } 
+}
+
+/* Override the main accent - higher specifity */
+.post-content a { color: #d8dae0; }
+
+/* Responsive Overrides */
+
+@media only screen and (max-width: 799px) {
+
+	.navigation .menu li a { border-top: 1px solid #131416; }
+
+	.navigation .menu > li:hover > a, .navigation .menu > .current-menu-item > a,.navigation .menu > .current-menu-parent > a, 
+	.navigation .mega-menu.links > li:hover, .navigation .menu > .current-menu-ancestor > a, .navigation .menu li.active {
+		background: #111214;
+	}
+}
+

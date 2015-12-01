@@ -1,0 +1,28 @@
+.image-upload {
+	display: none;
+	max-width: 350px;
+	margin-top: 10px;
+}
+
+.image-upload.visible {
+	display: block;
+}
+
+.image-upload img {
+	max-width: 100%;
+}
+
+
+.form-field .upload-btn {
+	width: auto;
+}
+
+.remove-image, .image-type {
+	display: none !important;
+}
+
+.remove-image.visible {
+	display: inline-block !important;
+}
+
+#addtag p.custom-meta { margin-bottom: 31px; } 

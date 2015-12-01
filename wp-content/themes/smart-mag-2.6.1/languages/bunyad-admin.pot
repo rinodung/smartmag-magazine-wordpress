@@ -1,0 +1,2587 @@
+# Copyright (C) 2015 ThemeSphere
+# This file is distributed under the GNU General Public License.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartMag 2.6.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/bunyad-admin\n"
+"POT-Creation-Date: 2015-09-21 14:35:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/category-meta.php:20
+msgid "Category Listing Style"
+msgstr ""
+
+#: admin/category-meta.php:24 blocks/page-builder/blog.php:67
+msgid "Default Style (In Theme Settings)"
+msgstr ""
+
+#: admin/category-meta.php:34
+msgid ""
+"Select a template to use for this category. It is not recommended to use 3 "
+"columns with a sidebar."
+msgstr ""
+
+#: admin/category-meta.php:39
+msgid "Show Sidebar?"
+msgstr ""
+
+#: admin/category-meta.php:44 admin/category-meta.php:120
+#: admin/meta/options/page.php:15 admin/meta/options/post.php:33
+#: admin/options.php:183 admin/options.php:370
+msgid "Default"
+msgstr ""
+
+#: admin/category-meta.php:44 admin/options.php:35
+msgid "No Sidebar"
+msgstr ""
+
+#: admin/category-meta.php:44 admin/meta/options/page.php:16
+#: admin/meta/options/post.php:34 admin/options.php:35
+msgid "Right Sidebar"
+msgstr ""
+
+#: admin/category-meta.php:48
+msgid "Select layout sidebar preference for this category's listing."
+msgstr ""
+
+#: admin/category-meta.php:53
+msgid "Featured Area?"
+msgstr ""
+
+#: admin/category-meta.php:59 admin/meta/options/post.php:59
+#: admin/options.php:382 blocks/page-builder/blog.php:117
+#: inc/navigation.php:43
+msgid "Disabled"
+msgstr ""
+
+#: admin/category-meta.php:60
+msgid "Show Posts Marked for Featured Slider"
+msgstr ""
+
+#: admin/category-meta.php:61
+msgid "Show Latest Posts/Use a tag filter"
+msgstr ""
+
+#: admin/category-meta.php:66
+msgid "Featured slider will display on category listing."
+msgstr ""
+
+#: admin/category-meta.php:71
+msgid "Featured Filter by Tag(s)"
+msgstr ""
+
+#: admin/category-meta.php:74
+msgid "Enter a tag slug to limit posts from."
+msgstr ""
+
+#: admin/category-meta.php:79 admin/meta/options/page.php:42
+msgid "Featured Style"
+msgstr ""
+
+#: admin/category-meta.php:85 admin/meta/options/page.php:46
+msgid "Default Slider"
+msgstr ""
+
+#: admin/category-meta.php:86 admin/meta/options/page.php:47
+msgid "Featured Grid"
+msgstr ""
+
+#: admin/category-meta.php:97
+msgid "Posts Per Page (Optional)"
+msgstr ""
+
+#: admin/category-meta.php:108
+msgid ""
+"Override default posts per page setting for this category. Leave empty for "
+"default (from Settings > Reading): %s"
+msgstr ""
+
+#: admin/category-meta.php:114
+msgid "Pagination Type"
+msgstr ""
+
+#: admin/category-meta.php:121 admin/options.php:383
+#: blocks/page-builder/blog.php:126
+msgid "Normal"
+msgstr ""
+
+#: admin/category-meta.php:122 admin/options.php:447
+#: blocks/page-builder/blog.php:127
+msgid "Infinite Scroll"
+msgstr ""
+
+#: admin/category-meta.php:127
+msgid "Infinite scroll can be globally enabled/disabled from Theme Settings."
+msgstr ""
+
+#: admin/category-meta.php:132
+msgid "Category Color"
+msgstr ""
+
+#: admin/category-meta.php:135
+msgid ""
+"SmartMag uses this in several areas such as navigation and homepage blocks."
+msgstr ""
+
+#: admin/category-meta.php:140
+msgid "Main Site Color"
+msgstr ""
+
+#: admin/category-meta.php:143
+msgid ""
+"Setting this color will change the entire site's main color when viewing "
+"this category or posts that belong to this category."
+msgstr ""
+
+#: admin/category-meta.php:149
+msgid "Category Background"
+msgstr ""
+
+#: admin/category-meta.php:157 admin/meta/options/page.php:93
+#: admin/meta/options/post.php:92 admin/options.php:210 admin/options.php:222
+#: admin/options.php:234 admin/options.php:255 admin/options.php:1203
+#: admin/options.php:1302 admin/options.php:1354 admin/options.php:1560
+msgid "Upload This Picture"
+msgstr ""
+
+#: admin/category-meta.php:158 admin/meta/options/page.php:94
+#: admin/meta/options/post.php:93 lib/admin/option-renderer.php:258
+msgid "Upload"
+msgstr ""
+
+#: admin/category-meta.php:159 admin/meta/options/page.php:95
+#: admin/meta/options/post.php:94 admin/options.php:1205
+#: admin/options.php:1304 admin/options.php:1356
+msgid "Use as Background"
+msgstr ""
+
+#: admin/category-meta.php:164
+msgid ""
+"SmartMag can use an image as body background in boxed layout. Note: It is "
+"not a repeating pattern. A large photo is to be used as background."
+msgstr ""
+
+#: admin/meta/options/page.php:7
+msgid "Revolution Slider Plugin"
+msgstr ""
+
+#: admin/meta/options/page.php:11 admin/meta/options/post.php:29
+#: admin/options.php:20
+msgid "Layout Style"
+msgstr ""
+
+#: admin/meta/options/page.php:17 admin/meta/options/post.php:35
+#: admin/options.php:24 admin/options.php:371
+msgid "Full Width"
+msgstr ""
+
+#: admin/meta/options/page.php:22
+msgid "Show Page Title?"
+msgstr ""
+
+#: admin/meta/options/page.php:30
+msgid "Show Featured Area?"
+msgstr ""
+
+#: admin/meta/options/page.php:34
+msgid "None"
+msgstr ""
+
+#: admin/meta/options/page.php:35
+msgid "Use Posts Marked as \"Featured Slider Post?\""
+msgstr ""
+
+#: admin/meta/options/page.php:36
+msgid "Use Latest Posts from Whole Site"
+msgstr ""
+
+#: admin/meta/options/page.php:53
+msgid "Number of Slides"
+msgstr ""
+
+#: admin/meta/options/page.php:56
+msgid ""
+"Number of posts to show on the left side of the slider. 3 are displayed on "
+"the right as a post grid."
+msgstr ""
+
+#: admin/meta/options/page.php:61
+msgid "Slider Limit by Tag"
+msgstr ""
+
+#: admin/meta/options/page.php:63
+msgid ""
+"Optional: To limit slider to certain tag or tags. If multiple, separate tag "
+"slugs by comma."
+msgstr ""
+
+#: admin/meta/options/page.php:69
+msgid "Slider Manual Post Ids"
+msgstr ""
+
+#: admin/meta/options/page.php:71
+msgid ""
+"Optional: ADVANCED! If you only want to show a set of selected pre-selected "
+"posts. Enter post ids separated by comma."
+msgstr ""
+
+#: admin/meta/options/page.php:77
+msgid "Revolution Slider Alias"
+msgstr ""
+
+#: admin/meta/options/page.php:79
+msgid "Enter alias of a slider you created in revolution slider plugin."
+msgstr ""
+
+#: admin/meta/options/page.php:88 admin/meta/options/post.php:87
+msgid "Custom Background Image"
+msgstr ""
+
+#: admin/meta/options/post.php:9
+msgid "Featured Slider Post?"
+msgstr ""
+
+#: admin/meta/options/post.php:16
+msgid "Post Layout"
+msgstr ""
+
+#: admin/meta/options/post.php:20
+msgid "Default (from Theme Settings)"
+msgstr ""
+
+#: admin/meta/options/post.php:21 admin/options.php:702
+msgid "Classic"
+msgstr ""
+
+#: admin/meta/options/post.php:22 admin/options.php:703
+msgid "Post Cover"
+msgstr ""
+
+#: admin/meta/options/post.php:23 admin/options.php:704
+msgid "Classic - Title First"
+msgstr ""
+
+#: admin/meta/options/post.php:40
+msgid "Category Label Overlay"
+msgstr ""
+
+#: admin/meta/options/post.php:44
+msgid "-- Auto Detect--"
+msgstr ""
+
+#: admin/meta/options/post.php:49
+msgid ""
+"When you have multiple categories for a post, auto detection chooses one in "
+"alphabetical order. These labels are shown above image in category listings."
+msgstr ""
+
+#: admin/meta/options/post.php:53
+msgid "Multi-page Content Slideshow?"
+msgstr ""
+
+#: admin/meta/options/post.php:54
+msgid ""
+"You can use <!--nextpage--> to split a page into multi-page content "
+"slideshow."
+msgstr ""
+
+#: admin/meta/options/post.php:60
+msgid "AJAX - No Refresh"
+msgstr ""
+
+#: admin/meta/options/post.php:61
+msgid "Multi-page - Refresh for next page"
+msgstr ""
+
+#: admin/meta/options/post.php:67
+msgid "Disable Featured?"
+msgstr ""
+
+#: admin/meta/options/post.php:68
+msgid ""
+"Do not show featured Image, Video, or Gallery at the top for this post, on "
+"post page."
+msgstr ""
+
+#: admin/meta/options/post.php:75
+msgid "Featured Video Code"
+msgstr ""
+
+#: admin/meta/options/reviews.php:9
+msgid "Enable Review?"
+msgstr ""
+
+#: admin/meta/options/reviews.php:16
+msgid "Display Position"
+msgstr ""
+
+#: admin/meta/options/reviews.php:20
+msgid "Do not display - Disabled"
+msgstr ""
+
+#: admin/meta/options/reviews.php:21
+msgid "Top"
+msgstr ""
+
+#: admin/meta/options/reviews.php:22
+msgid "Bottom"
+msgstr ""
+
+#: admin/meta/options/reviews.php:27
+msgid "Show Rating As"
+msgstr ""
+
+#: admin/meta/options/reviews.php:31
+msgid "Percentage"
+msgstr ""
+
+#: admin/meta/options/reviews.php:32
+msgid "Points"
+msgstr ""
+
+#: admin/meta/options/reviews.php:33 admin/options.php:835
+msgid "Stars"
+msgstr ""
+
+#: admin/meta/options/reviews.php:39
+msgid "Heading (optional)"
+msgstr ""
+
+#: admin/meta/options/reviews.php:45
+msgid "Verdict"
+msgstr ""
+
+#: admin/meta/options/reviews.php:48
+msgid "Awesome"
+msgstr ""
+
+#: admin/meta/options/reviews.php:52
+msgid "Verdict Summary"
+msgstr ""
+
+#: admin/meta/post-reviews.php:32
+msgid "Criteria"
+msgstr ""
+
+#: admin/meta/post-reviews.php:35
+msgid "Add More Criteria"
+msgstr ""
+
+#: admin/meta/post-reviews.php:36
+msgid "Overall rating auto-calculated:"
+msgstr ""
+
+#: admin/meta/post-reviews.php:46
+msgid "Criterion %number%"
+msgstr ""
+
+#: admin/meta/post-reviews.php:47
+msgid "Label:"
+msgstr ""
+
+#: admin/meta/post-reviews.php:48
+msgid "Rating:"
+msgstr ""
+
+#: admin/meta/post-reviews.php:123
+msgid "Rating cannot be greater than 10."
+msgstr ""
+
+#: admin/options.php:10
+msgid "General Settings"
+msgstr ""
+
+#: admin/options.php:21
+msgid ""
+"Select whether you want a boxed or a full-width layout. It affects every "
+"page and the whole layout."
+msgstr ""
+
+#: admin/options.php:25
+msgid "Boxed"
+msgstr ""
+
+#: admin/options.php:31
+msgid "Default Sidebar"
+msgstr ""
+
+#: admin/options.php:33
+msgid ""
+"Specify the sidebar to use by default. This can be overriden per-page or per-"
+"post basis when creating a page or post."
+msgstr ""
+
+#: admin/options.php:41
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: admin/options.php:42
+msgid "Setting this to Yes will make sidebar sticky as the user scrolls."
+msgstr ""
+
+#: admin/options.php:49
+msgid "Disable Responsive Layout"
+msgstr ""
+
+#: admin/options.php:50
+msgid ""
+"Disabling responsive layout means mobile phones and tablets will no longer "
+"see a better optimized design. Do not disable this unless really necessary."
+msgstr ""
+
+#: admin/options.php:57
+msgid "Head Code"
+msgstr ""
+
+#: admin/options.php:58
+msgid ""
+"This code will be placed before </head> tag in html. Useful if you have an "
+"external script that requires it."
+msgstr ""
+
+#: admin/options.php:67
+msgid "Limit Search To Posts"
+msgstr ""
+
+#: admin/options.php:68
+msgid ""
+"WordPress, by default, uses pages and other posts types to display search "
+"results. Enabling this feature will limit it to posts only."
+msgstr ""
+
+#: admin/options.php:75
+msgid "Post Editor Front-end Styles"
+msgstr ""
+
+#: admin/options.php:76
+msgid ""
+"While not exactly same as front-end, this will make the post editor mimimc "
+"font sizes, blockquote styles, width etc. from the front-end."
+msgstr ""
+
+#: admin/options.php:84 admin/options.php:1531
+msgid "Footer"
+msgstr ""
+
+#: admin/options.php:89
+msgid "Disable Large Footer"
+msgstr ""
+
+#: admin/options.php:90
+msgid ""
+"Setting this to yes will disable the large footer that appears above the "
+"lowest footer. Used to contain large widgets."
+msgstr ""
+
+#: admin/options.php:96
+msgid "Disable Lower Footer"
+msgstr ""
+
+#: admin/options.php:97
+msgid "Setting this to yes will disable the smaller footer at bottom."
+msgstr ""
+
+#: admin/options.php:104
+msgid "Footer Columns "
+msgstr ""
+
+#: admin/options.php:105
+msgid ""
+"Sets the columns width and number of columns. Other examples: 1/2+1/2, "
+"1/4+1/4+1/2"
+msgstr ""
+
+#: admin/options.php:112
+msgid "Footer Code"
+msgstr ""
+
+#: admin/options.php:113
+msgid ""
+"This code will be placed before </body> tag in html. Use for Google "
+"Analytics or similar external scripts."
+msgstr ""
+
+#: admin/options.php:123
+msgid "Favicons (optional)"
+msgstr ""
+
+#: admin/options.php:127
+msgid "Favicon"
+msgstr ""
+
+#: admin/options.php:128
+msgid "32x32px recommended. IMPORTANT: .ico file only!"
+msgstr ""
+
+#: admin/options.php:132
+msgid "Upload Favicon (.ico file)"
+msgstr ""
+
+#: admin/options.php:133
+msgid "Use As Favicon"
+msgstr ""
+
+#: admin/options.php:139
+msgid "Mobile Icon"
+msgstr ""
+
+#: admin/options.php:145
+msgid "Upload Mobile Icon"
+msgstr ""
+
+#: admin/options.php:146
+msgid "Use As Mobile Icon"
+msgstr ""
+
+#: admin/options.php:156
+msgid "Header & Navigation"
+msgstr ""
+
+#: admin/options.php:166
+msgid "Header Style"
+msgstr ""
+
+#: admin/options.php:167
+msgid ""
+"Select the header style you want to use. <strong>Warning:</strong> It will "
+"adjust several related settings below on selection."
+msgstr ""
+
+#: admin/options.php:170
+msgid "Default - Left Logo + Right Ad"
+msgstr ""
+
+#: admin/options.php:171
+msgid "Centered Logo"
+msgstr ""
+
+#: admin/options.php:172
+msgid "Tech: Dark Topbar & Light Nav"
+msgstr ""
+
+#: admin/options.php:179
+msgid "Mobile Header Style"
+msgstr ""
+
+#: admin/options.php:180
+msgid ""
+"The default header style varies a bit based on the selected header style, "
+"while the modern light stays consistent in its appearance. Modern Light only "
+"supports off-canvas menu."
+msgstr ""
+
+#: admin/options.php:184 admin/options.php:345
+msgid "Modern Light"
+msgstr ""
+
+#: admin/options.php:192
+msgid "Logo"
+msgstr ""
+
+#: admin/options.php:197
+msgid "Logo Text"
+msgstr ""
+
+#: admin/options.php:198
+msgid "It will be used if logo images are not provided below."
+msgstr ""
+
+#: admin/options.php:205
+msgid "Logo Image"
+msgstr ""
+
+#: admin/options.php:206
+msgid ""
+"By default, a text-based logo is created using your site title. But you can "
+"upload an image-based logo here."
+msgstr ""
+
+#: admin/options.php:211 admin/options.php:223 admin/options.php:235
+#: admin/options.php:256
+msgid "Use As Logo"
+msgstr ""
+
+#: admin/options.php:217
+msgid "Logo Image Retina (2x)"
+msgstr ""
+
+#: admin/options.php:218
+msgid ""
+"The retina version is 2x version of the same logo above. This will be used "
+"for higher resolution devices like iPhone. Requires WP Retina 2x plugin."
+msgstr ""
+
+#: admin/options.php:229
+msgid "Mobile Logo (2x) - Optional"
+msgstr ""
+
+#: admin/options.php:230
+msgid ""
+"Set if you wish to use a different logo for mobile devices. Use a 2x image "
+"(twice the size of your original logo) since most mobile phones have retina "
+"screens."
+msgstr ""
+
+#: admin/options.php:242
+msgid "Enable Sticky Nav Logo"
+msgstr ""
+
+#: admin/options.php:243
+msgid ""
+"Enabling this adds your logo to the sticky navigation. For image-based "
+"logos, you will have to upload a different logo due to color difference."
+msgstr ""
+
+#: admin/options.php:250
+msgid "Sticky Nav Logo Image (Optional)"
+msgstr ""
+
+#: admin/options.php:251
+msgid ""
+"This logo image will be used in sticky navigation. Ignore this if you use a "
+"text-based logo. Recommended Size: 43x75 - PNG with transparent background."
+msgstr ""
+
+#: admin/options.php:266
+msgid "Top Bar"
+msgstr ""
+
+#: admin/options.php:272
+msgid "Disable Top Bar"
+msgstr ""
+
+#: admin/options.php:273
+msgid ""
+"Setting this to yes will disable the top bar element that appears above the "
+"logo area."
+msgstr ""
+
+#: admin/options.php:280
+msgid "Topbar Style"
+msgstr ""
+
+#: admin/options.php:281
+msgid "You can use a light or a dark topbar."
+msgstr ""
+
+#: admin/options.php:284
+msgid "Light"
+msgstr ""
+
+#: admin/options.php:285
+msgid "Dark"
+msgstr ""
+
+#: admin/options.php:292
+msgid "Disable Top News Ticker"
+msgstr ""
+
+#: admin/options.php:293
+msgid "Setting this to yes will disable the top bar news ticker"
+msgstr ""
+
+#: admin/options.php:300
+msgid "Topbar Ticker Text"
+msgstr ""
+
+#: admin/options.php:301
+msgid "Enter the text you wish to display before the headlines in the ticker."
+msgstr ""
+
+#: admin/options.php:308
+msgid "Show Search Box"
+msgstr ""
+
+#: admin/options.php:309
+msgid "Enabling search shows a search box in the top bar."
+msgstr ""
+
+#: admin/options.php:316
+msgid "Enable Live Search"
+msgstr ""
+
+#: admin/options.php:317
+msgid ""
+"Live search shows results using AJAX as you type, in the top bar search."
+msgstr ""
+
+#: admin/options.php:325
+msgid "Live Search Results"
+msgstr ""
+
+#: admin/options.php:326
+msgid "Set the number of results to show when using the live search."
+msgstr ""
+
+#: admin/options.php:334
+msgid "Navigation"
+msgstr ""
+
+#: admin/options.php:340
+msgid "Navigation Style"
+msgstr ""
+
+#: admin/options.php:341
+msgid ""
+"The default style is a dark navigation. The light variation is a completely "
+"different navigation style and is only compatible with Default and Tech skin."
+msgstr ""
+
+#: admin/options.php:344
+msgid "Default Dark"
+msgstr ""
+
+#: admin/options.php:354
+msgid "Navigation Alignment"
+msgstr ""
+
+#: admin/options.php:355
+msgid ""
+"You can center the top-level navigation items or keep them left-aligned."
+msgstr ""
+
+#: admin/options.php:358
+msgid "Left"
+msgstr ""
+
+#: admin/options.php:359
+msgid "Centered"
+msgstr ""
+
+#: admin/options.php:366
+msgid "Navigation Width"
+msgstr ""
+
+#: admin/options.php:367
+msgid "Whether to make navigation container half or full-width."
+msgstr ""
+
+#: admin/options.php:378
+msgid "Sticky Navigation"
+msgstr ""
+
+#: admin/options.php:379
+msgid ""
+"This makes navigation fixed when the user scrolls below the fold - making "
+"nav menu always visible. Normal is the behavior described above, but Smart "
+"changes beahavior to make it sticky only when the user scrolls up."
+msgstr ""
+
+#: admin/options.php:384
+msgid "Smart - Show only when scrolling up"
+msgstr ""
+
+#: admin/options.php:391
+msgid "Search in Navigation"
+msgstr ""
+
+#: admin/options.php:392
+msgid "Enabling it shows a search icon in the navigation bar."
+msgstr ""
+
+#: admin/options.php:399
+msgid "Enable Search on Mobile Menu"
+msgstr ""
+
+#: admin/options.php:400
+msgid ""
+"Disabling this will remove the search icon from the mobile navigation menu."
+msgstr ""
+
+#: admin/options.php:407
+msgid "Mobile Menu Type"
+msgstr ""
+
+#: admin/options.php:408
+msgid ""
+"Select the mobile menu you wish to use. The classic menu expands below the "
+"mobile navigation. The off-canvas menu appears in a mobile app style at the "
+"left side."
+msgstr ""
+
+#: admin/options.php:411
+msgid "Classic Menu"
+msgstr ""
+
+#: admin/options.php:412
+msgid "Off-Canvas Menu"
+msgstr ""
+
+#: admin/options.php:419
+msgid "Disable Breadcrumbs"
+msgstr ""
+
+#: admin/options.php:420
+msgid ""
+"Breadcrumbs are a hierarchy of links displayed below the main navigation. "
+"They are displayed on all pages but the home-page."
+msgstr ""
+
+#: admin/options.php:431
+msgid "Listing Layouts"
+msgstr ""
+
+#: admin/options.php:442
+msgid "Pagination Type On Archives"
+msgstr ""
+
+#: admin/options.php:443
+msgid ""
+"Sets pagination type on all archives such as category listings. Infinite "
+"scroll loads more posts as you scroll."
+msgstr ""
+
+#: admin/options.php:446
+msgid "Normal Pagination"
+msgstr ""
+
+#: admin/options.php:453
+msgid "Default Category Style"
+msgstr ""
+
+#: admin/options.php:455
+msgid ""
+"The style to use for listing while browsing categories. This can be "
+"overriden while creating or editing a category."
+msgstr ""
+
+#: admin/options.php:458 admin/options.php:476 admin/options.php:494
+#: blocks/page-builder/blog.php:68
+msgid "Modern Style - 2 Column"
+msgstr ""
+
+#: admin/options.php:459 admin/options.php:477 admin/options.php:495
+#: blocks/page-builder/blog.php:69
+msgid "Modern Style - 3 Column"
+msgstr ""
+
+#: admin/options.php:460 admin/options.php:478 admin/options.php:496
+#: blocks/page-builder/blog.php:70
+msgid "Grid Overlay - 2 Column"
+msgstr ""
+
+#: admin/options.php:461 admin/options.php:479 admin/options.php:497
+#: blocks/page-builder/blog.php:71
+msgid "Grid Overlay - 3 Column"
+msgstr ""
+
+#: admin/options.php:462 admin/options.php:480 admin/options.php:498
+#: blocks/page-builder/blog.php:72
+msgid "Tall Grid Overlay"
+msgstr ""
+
+#: admin/options.php:463 admin/options.php:481 admin/options.php:499
+#: blocks/page-builder/blog.php:73
+msgid "Blog Style"
+msgstr ""
+
+#: admin/options.php:464 admin/options.php:482 admin/options.php:500
+#: blocks/page-builder/blog.php:74
+msgid "Classic - Large Blog Style"
+msgstr ""
+
+#: admin/options.php:465 admin/options.php:483 admin/options.php:501
+#: blocks/page-builder/blog.php:75
+msgid "Timeline Style"
+msgstr ""
+
+#: admin/options.php:471
+msgid "Author Listing Style"
+msgstr ""
+
+#: admin/options.php:473
+msgid "This style is used while browsing author page."
+msgstr ""
+
+#: admin/options.php:489
+msgid "Archive Listing Style"
+msgstr ""
+
+#: admin/options.php:491
+msgid ""
+"This style is used while browsing tags, searching, date archives, and any "
+"other archives."
+msgstr ""
+
+#: admin/options.php:508
+msgid "Enable \"Read More\""
+msgstr ""
+
+#: admin/options.php:509
+msgid ""
+"This is global setting for read more. If this is disabled, the individual "
+"settings below will not apply."
+msgstr ""
+
+#: admin/options.php:515
+msgid "Meta In Listings"
+msgstr ""
+
+#: admin/options.php:517
+msgid "Select which meta to show in post listings."
+msgstr ""
+
+#: admin/options.php:520 admin/options.php:533 admin/options.php:545
+msgid "Author"
+msgstr ""
+
+#: admin/options.php:521 admin/options.php:534 admin/options.php:546
+msgid "Date"
+msgstr ""
+
+#: admin/options.php:522 admin/options.php:547
+msgid "Comment Count"
+msgstr ""
+
+#: admin/options.php:528
+msgid "Meta In Overlay Listings"
+msgstr ""
+
+#: admin/options.php:530
+msgid ""
+"Select which meta to show in post listings with overlays - Grid Overlay and "
+"Tall Overlay."
+msgstr ""
+
+#: admin/options.php:540
+msgid "Meta In Widgets"
+msgstr ""
+
+#: admin/options.php:542
+msgid ""
+"Select which meta to show in post listings within widgets - such as latest "
+"posts."
+msgstr ""
+
+#: admin/options.php:560
+msgid "Modern Listing"
+msgstr ""
+
+#: admin/options.php:566 admin/options.php:590 admin/options.php:613
+msgid "Excerpt Length"
+msgstr ""
+
+#: admin/options.php:567 admin/options.php:591 admin/options.php:614
+#: admin/options.php:659 admin/options.php:667 admin/options.php:675
+msgid ""
+"Set the excerpt length for this listing. By default, it is a word count "
+"length."
+msgstr ""
+
+#: admin/options.php:575
+msgid "Classic Large Blog Listing"
+msgstr ""
+
+#: admin/options.php:581
+msgid "Enable Excerpts"
+msgstr ""
+
+#: admin/options.php:582
+msgid ""
+"By default whole post is displayed unless %s is used in posts. When excerpts "
+"are enabled, manual or automatic excerpt is used."
+msgstr ""
+
+#: admin/options.php:598
+msgid "Show Social Icons"
+msgstr ""
+
+#: admin/options.php:599
+msgid ""
+"Enabling this will show social icons in this listing style. Requires: Social "
+"icons to be enabled for single pages."
+msgstr ""
+
+#: admin/options.php:607
+msgid "Traditional Blog Listing"
+msgstr ""
+
+#: admin/options.php:621
+msgid "Show \"Read More\""
+msgstr ""
+
+#: admin/options.php:622
+msgid "Show read \"More\" links in listings of this type?"
+msgstr ""
+
+#: admin/options.php:633
+msgid "Homepage & Blocks"
+msgstr ""
+
+#: admin/options.php:644
+msgid "No Duplicate Posts In Homepage Blocks?"
+msgstr ""
+
+#: admin/options.php:645
+msgid ""
+"If you have a lot of content or when you are using latest posts slider, you "
+"can see duplicate in featured area and homepage blocks. Setting this feature "
+"to Yes will remove duplicates."
+msgstr ""
+
+#: admin/options.php:652
+msgid "Excerpts"
+msgstr ""
+
+#: admin/options.php:658
+msgid "Highlights Block Excerpt Length"
+msgstr ""
+
+#: admin/options.php:666
+msgid "News Focus Block Excerpt Length"
+msgstr ""
+
+#: admin/options.php:674
+msgid "Focus Grid Block Excerpt Length"
+msgstr ""
+
+#: admin/options.php:686
+msgid "Page/Post Settings"
+msgstr ""
+
+#: admin/options.php:692
+msgid "Single Post / Article Page"
+msgstr ""
+
+#: admin/options.php:697
+msgid "Default Posts Layout"
+msgstr ""
+
+#: admin/options.php:699
+msgid ""
+"Default single post layout to use, unless explicitly overriden in the post "
+"options."
+msgstr ""
+
+#: admin/options.php:711
+msgid "Enable prettyPhoto Lightbox"
+msgstr ""
+
+#: admin/options.php:712
+msgid ""
+"When enabled, prettyPhoto lightbox will auto-bind to images such as featured "
+"images, WordPress galleries etc."
+msgstr ""
+
+#: admin/options.php:719
+msgid "Show Featured"
+msgstr ""
+
+#: admin/options.php:720
+msgid ""
+"Disabling featured area will mean the featured image or video will no longer "
+"show at top of the article."
+msgstr ""
+
+#: admin/options.php:727
+msgid "First Paragraph"
+msgstr ""
+
+#: admin/options.php:728
+msgid ""
+"By default, the first paragraph is treated as a summary and thus emphasized "
+"with larger font. NOTE: Applies to classic post layout only."
+msgstr ""
+
+#: admin/options.php:732
+msgid "Emphasized with larger font"
+msgstr ""
+
+#: admin/options.php:733
+msgid "Normal - same as other paragraphs"
+msgstr ""
+
+#: admin/options.php:740
+msgid "Show Tags"
+msgstr ""
+
+#: admin/options.php:741
+msgid "Show tags below posts? We recommend using categories instead of tags."
+msgstr ""
+
+#: admin/options.php:748
+msgid "Show Social Sharing"
+msgstr ""
+
+#: admin/options.php:749
+msgid "Show twitter, facebook, etc. share images beneath posts?"
+msgstr ""
+
+#: admin/options.php:756
+msgid "Previous/Next Navigation?"
+msgstr ""
+
+#: admin/options.php:757
+msgid ""
+"Enabling this will add a Previous and Next post link in the single post page."
+msgstr ""
+
+#: admin/options.php:764
+msgid "Show Author Box"
+msgstr ""
+
+#: admin/options.php:765
+msgid ""
+"Setting to No will disable author box displayed below posts on post page."
+msgstr ""
+
+#: admin/options.php:774
+msgid "Related Posts"
+msgstr ""
+
+#: admin/options.php:780
+msgid "Show Related Posts"
+msgstr ""
+
+#: admin/options.php:781
+msgid ""
+"Setting to No will disable the related posts that appear on the single post "
+"page."
+msgstr ""
+
+#: admin/options.php:789
+msgid "Related Posts By"
+msgstr ""
+
+#: admin/options.php:790
+msgid ""
+"By default, related posts will be displayed by finding posts based on the "
+"categories of post being viewed. You can change it to tags."
+msgstr ""
+
+#: admin/options.php:793
+msgid "Categories"
+msgstr ""
+
+#: admin/options.php:793
+msgid "Tags"
+msgstr ""
+
+#: admin/options.php:800
+msgid "Use YARPP Plugin? (Advanced)"
+msgstr ""
+
+#: admin/options.php:801
+msgid ""
+"Enabling this will allow you to use YARPP (Yet Another Related Posts Plugin) "
+"with theme styling."
+msgstr ""
+
+#: admin/options.php:808
+msgid "Review Posts"
+msgstr ""
+
+#: admin/options.php:814
+msgid "Show Rating In Listings"
+msgstr ""
+
+#: admin/options.php:815
+msgid ""
+"On posts with reviews, show the verdict rating points in category/home-page "
+"listing?"
+msgstr ""
+
+#: admin/options.php:822
+msgid "Show Rating In Widgets/Sidebar"
+msgstr ""
+
+#: admin/options.php:823
+msgid ""
+"On posts with reviews, show the verdict rating points in sidebar widgets?"
+msgstr ""
+
+#: admin/options.php:830
+msgid "Widgets & Blocks Review Style"
+msgstr ""
+
+#: admin/options.php:831
+msgid ""
+"This setting affects review style in widgets & blocks. Bar & Points displays "
+"an overlay over the thumbnail, where as stars go next in an overlay or below "
+"title."
+msgstr ""
+
+#: admin/options.php:834
+msgid "Bar and Points Overlay"
+msgstr ""
+
+#: admin/options.php:842
+msgid "Enable Users Ratings"
+msgstr ""
+
+#: admin/options.php:843
+msgid ""
+"This feature adds a user rating area below criterion to allow readers to "
+"click and vote."
+msgstr ""
+
+#: admin/options.php:854
+msgid "Typography"
+msgstr ""
+
+#: admin/options.php:860 admin/options.php:1129
+msgid "General"
+msgstr ""
+
+#: admin/options.php:870
+msgid "Main Font Family"
+msgstr ""
+
+#: admin/options.php:892
+msgid "Contrast Font Family"
+msgstr ""
+
+#: admin/options.php:893
+msgid ""
+"This font will apply to mainly post headlines in post pages, slider, "
+"homepage, etc."
+msgstr ""
+
+#: admin/options.php:906
+msgid "Blog Post & Pages Body"
+msgstr ""
+
+#: admin/options.php:907
+msgid ""
+"Pages and blog posts body can also use a font of your choice. Readability is "
+"cruicial. Choose wisely."
+msgstr ""
+
+#: admin/options.php:916
+msgid "Navigation Font"
+msgstr ""
+
+#: admin/options.php:917
+msgid "Change the font used in the navigation menu."
+msgstr ""
+
+#: admin/options.php:925
+msgid "Blocks & Listing Excerpts"
+msgstr ""
+
+#: admin/options.php:926
+msgid ""
+"Affects the agebuilder blocks, and category listings' excerpt that is "
+"displayed below the heading."
+msgstr ""
+
+#: admin/options.php:935
+msgid "Pages & In-Post Headings"
+msgstr ""
+
+#: admin/options.php:936
+msgid ""
+"Changing this will affect the font used for pages heading and heading h1-h6 "
+"used within posts or default template pages."
+msgstr ""
+
+#: admin/options.php:945
+msgid "Content Heading Sizes"
+msgstr ""
+
+#: admin/options.php:946
+msgid "These sizes affects the heading of fonts used within posts."
+msgstr ""
+
+#: admin/options.php:952
+msgid "H1 Size"
+msgstr ""
+
+#: admin/options.php:953
+msgid "h1 size for in-post headings."
+msgstr ""
+
+#: admin/options.php:963
+msgid "H2 Size"
+msgstr ""
+
+#: admin/options.php:964
+msgid "h2 size for in-post headings."
+msgstr ""
+
+#: admin/options.php:974
+msgid "H3 Size"
+msgstr ""
+
+#: admin/options.php:975
+msgid "h3 size for in-post headings."
+msgstr ""
+
+#: admin/options.php:985
+msgid "H4 Size"
+msgstr ""
+
+#: admin/options.php:986
+msgid "h4 size for in-post headings."
+msgstr ""
+
+#: admin/options.php:996
+msgid "H5 Size"
+msgstr ""
+
+#: admin/options.php:997
+msgid "h5 size for in-post headings."
+msgstr ""
+
+#: admin/options.php:1007
+msgid "H6 Size"
+msgstr ""
+
+#: admin/options.php:1008
+msgid "h6 size for in-post headings."
+msgstr ""
+
+#: admin/options.php:1018
+msgid "Advanced"
+msgstr ""
+
+#: admin/options.php:1022
+msgid "Google Fonts Character Set"
+msgstr ""
+
+#: admin/options.php:1024
+msgid ""
+"For some languages, you will need an extended character set. Please note, "
+"not all fonts will have the subset. Check the google font to make sure."
+msgstr ""
+
+#: admin/options.php:1027
+msgid "Latin"
+msgstr ""
+
+#: admin/options.php:1028
+msgid "Latin Extended"
+msgstr ""
+
+#: admin/options.php:1029
+msgid "Cyrillic"
+msgstr ""
+
+#: admin/options.php:1030
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: admin/options.php:1031
+msgid "Greek"
+msgstr ""
+
+#: admin/options.php:1032
+msgid "Greek Extended"
+msgstr ""
+
+#: admin/options.php:1033
+msgid "Vietnamese"
+msgstr ""
+
+#: admin/options.php:1040
+msgid "Use FontAwesome CDN"
+msgstr ""
+
+#: admin/options.php:1041
+msgid ""
+"FontAwesome is loaded locally by default. Using the CDN will save a the font "
+"and CSS download if the user has already visited a site that used "
+"FontAwesome."
+msgstr ""
+
+#: admin/options.php:1049
+msgid "Adobe Typekit Fonts"
+msgstr ""
+
+#: admin/options.php:1050
+msgid ""
+"First, please get your Kit Javascript code from Typekit and add it to Theme "
+"Settings > General > Head Code."
+msgstr ""
+
+#: admin/options.php:1054
+msgid "Font Family Names"
+msgstr ""
+
+#: admin/options.php:1056
+msgid ""
+"A font name of \"Source Sans Pro\" should be source-sans-pro. You can click "
+"\"Using fonts in CSS\" link in Typekit Kit Editor to find exact name."
+msgstr ""
+
+#: admin/options.php:1059 admin/options.php:1082
+msgid "Font Name"
+msgstr ""
+
+#: admin/options.php:1066 admin/options.php:1071
+#: lib/admin/option-renderer.php:481
+msgid "Custom Fonts"
+msgstr ""
+
+#: admin/options.php:1067
+msgid ""
+"You have to convert your font to the .woff format. Use <a href=\"%s"
+"\">FontSquirrel WebFont Generator</a> to get a .woff file."
+msgstr ""
+
+#: admin/options.php:1073
+msgid ""
+"Upload your font in woff format and enter the font name. You can upload your "
+"font file using FTP, or via Media > Add New and then paste the URL."
+msgstr ""
+
+#: admin/options.php:1077
+msgid "File URL"
+msgstr ""
+
+#: admin/options.php:1095
+msgid "Skins & Styling"
+msgstr ""
+
+#: admin/options.php:1107
+msgid "Pre-defined Skin"
+msgstr ""
+
+#: admin/options.php:1108
+msgid ""
+"Select a predefined skin or create your own customized one below. <br /><br /"
+"><strong>WARNING:</strong> Changing to (and from) Tech skin requires running "
+"\"Regenerate Thumbnails\" after saving Settings."
+msgstr ""
+
+#: admin/options.php:1112
+msgid "Light Scheme (Light Nav, Sidebar, Footer)"
+msgstr ""
+
+#: admin/options.php:1113
+msgid "Black Scheme (All Dark)"
+msgstr ""
+
+#: admin/options.php:1114
+msgid "Advanced: Tech Skin"
+msgstr ""
+
+#: admin/options.php:1119 admin/options.php:1123
+msgid "Reset Colors"
+msgstr ""
+
+#: admin/options.php:1120
+msgid ""
+"Clicking this button will reset all the color settings below to the default "
+"color settings."
+msgstr ""
+
+#: admin/options.php:1123
+msgid "Do you really wish to reset colors to defaults?"
+msgstr ""
+
+#: admin/options.php:1134
+msgid "Theme Color"
+msgstr ""
+
+#: admin/options.php:1179
+msgid "Body Background Color"
+msgstr ""
+
+#: admin/options.php:1180
+msgid ""
+"Use light colors only in non-boxed layout. Setting a body background image "
+"below will override it."
+msgstr ""
+
+#: admin/options.php:1192
+msgid "Body Background"
+msgstr ""
+
+#: admin/options.php:1193
+msgid ""
+"Use light patterns in non-boxed layout. For patterns, use a repeating "
+"background. Use photo to fully cover the background with an image. Note that "
+"it will override the background color option."
+msgstr ""
+
+#: admin/options.php:1204 admin/options.php:1303 admin/options.php:1355
+msgid "Upload Image"
+msgstr ""
+
+#: admin/options.php:1213
+msgid "Posts Main Text Color"
+msgstr ""
+
+#: admin/options.php:1214
+msgid "Text color applies to body text of posts and pages."
+msgstr ""
+
+#: admin/options.php:1226
+msgid "Blocks & Listings Excerpt Color"
+msgstr ""
+
+#: admin/options.php:1227
+msgid ""
+"Text color applies to excerpt text displayed on homepage blocks and category "
+"listings."
+msgstr ""
+
+#: admin/options.php:1239
+msgid "Main Headings Color"
+msgstr ""
+
+#: admin/options.php:1240
+msgid ""
+"Applies to headings such as main post/page heading and all the in-post "
+"headings."
+msgstr ""
+
+#: admin/options.php:1253
+msgid "Posts Link Color"
+msgstr ""
+
+#: admin/options.php:1254
+msgid "Changes all the links color within posts and pages."
+msgstr ""
+
+#: admin/options.php:1266
+msgid "Posts Link Hover Color"
+msgstr ""
+
+#: admin/options.php:1267
+msgid "This color is applied when you mouse-over a certain link."
+msgstr ""
+
+#: admin/options.php:1279
+msgid "Featured Slider Background Color"
+msgstr ""
+
+#: admin/options.php:1280
+msgid "Setting a body background pattern below will override it."
+msgstr ""
+
+#: admin/options.php:1292
+msgid "Featured Slider Background"
+msgstr ""
+
+#: admin/options.php:1293 admin/options.php:1345 admin/options.php:1551
+msgid ""
+"Please use a background pattern that can be repeated. Note that it will "
+"override the background color option."
+msgstr ""
+
+#: admin/options.php:1312
+msgid "Header"
+msgstr ""
+
+#: admin/options.php:1318
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: admin/options.php:1319
+msgid "Only applies if top bar is enabled."
+msgstr ""
+
+#: admin/options.php:1331
+msgid "Header Background Color"
+msgstr ""
+
+#: admin/options.php:1332
+msgid "Setting a header background pattern below will override it."
+msgstr ""
+
+#: admin/options.php:1344
+msgid "Header Background"
+msgstr ""
+
+#: admin/options.php:1364
+msgid "Navigation Menu"
+msgstr ""
+
+#: admin/options.php:1370
+msgid "Main Menu Background Color"
+msgstr ""
+
+#: admin/options.php:1371
+msgid "Menu background affects the top-level background only."
+msgstr ""
+
+#: admin/options.php:1389
+msgid "Menu Dropdowns Background Color"
+msgstr ""
+
+#: admin/options.php:1390
+msgid ""
+"Menu background color is only used when a background pattern is not "
+"specified below."
+msgstr ""
+
+#: admin/options.php:1405
+msgid "Menu Hover/Current Background Color"
+msgstr ""
+
+#: admin/options.php:1406
+msgid ""
+"This is the background color used when you hover a menu item.  It is not "
+"used for top-level active state."
+msgstr ""
+
+#: admin/options.php:1425
+msgid "Menu Border Below"
+msgstr ""
+
+#: admin/options.php:1426
+msgid ""
+"Navigation menu has a 3 pixel border below it. Changing this color will only "
+"affect that border."
+msgstr ""
+
+#: admin/options.php:1439
+msgid "Menu Items Border Color"
+msgstr ""
+
+#: admin/options.php:1440
+msgid "Menu items on drop down are separated by a border."
+msgstr ""
+
+#: admin/options.php:1457
+msgid "Mega Menu Headings Border Color"
+msgstr ""
+
+#: admin/options.php:1458
+msgid "Mega Menu items have a distinct color on border."
+msgstr ""
+
+#: admin/options.php:1471
+msgid "Mega Menu Left Sub-Categories Background"
+msgstr ""
+
+#: admin/options.php:1472
+msgid ""
+"Mega Menu has a distinct background for its sub-navigation at the left side.."
+msgstr ""
+
+#: admin/options.php:1485
+msgid "Menu Text Color"
+msgstr ""
+
+#: admin/options.php:1486
+msgid "Applies to top menu items. Does not apply to drop down."
+msgstr ""
+
+#: admin/options.php:1499 functions.php:473
+msgid "Main Sidebar"
+msgstr ""
+
+#: admin/options.php:1505
+msgid "Sidebar Heading Background"
+msgstr ""
+
+#: admin/options.php:1506
+msgid ""
+"Sidebar heading background color affects all the headings in the main "
+"sidebar."
+msgstr ""
+
+#: admin/options.php:1518
+msgid "Sidebar Heading Color"
+msgstr ""
+
+#: admin/options.php:1519
+msgid "Change color of headings/widget titles in the main sidebar."
+msgstr ""
+
+#: admin/options.php:1537
+msgid "Footer Background Color"
+msgstr ""
+
+#: admin/options.php:1538
+msgid ""
+"Footer background color is only used when a background pattern is not "
+"specified below."
+msgstr ""
+
+#: admin/options.php:1550
+msgid "Footer Background Pattern"
+msgstr ""
+
+#: admin/options.php:1561
+msgid "Upload Pattern"
+msgstr ""
+
+#: admin/options.php:1562
+msgid "Use as Background Pattern"
+msgstr ""
+
+#: admin/options.php:1569
+msgid "Footer Headings Color"
+msgstr ""
+
+#: admin/options.php:1570
+msgid "Change color of headings in the footer."
+msgstr ""
+
+#: admin/options.php:1582
+msgid "Footer Text Color"
+msgstr ""
+
+#: admin/options.php:1583
+msgid "Affects color of text in the footer."
+msgstr ""
+
+#: admin/options.php:1595
+msgid "Footer Links Color"
+msgstr ""
+
+#: admin/options.php:1596 admin/options.php:1635
+msgid "Affects color of links in the footer."
+msgstr ""
+
+#: admin/options.php:1608
+msgid "Lower Footer Background Color"
+msgstr ""
+
+#: admin/options.php:1609
+msgid "Second footer uses this color in the background."
+msgstr ""
+
+#: admin/options.php:1621
+msgid "Lower Footer Text Color"
+msgstr ""
+
+#: admin/options.php:1622
+msgid "Second footer uses this color for text."
+msgstr ""
+
+#: admin/options.php:1634
+msgid "Lower Footer Links Color"
+msgstr ""
+
+#: admin/options.php:1651
+msgid "Slider & Featured"
+msgstr ""
+
+#: admin/options.php:1663
+msgid "Animation Type"
+msgstr ""
+
+#: admin/options.php:1665
+msgid ""
+"Set the type of animation to use for the slider. Does not apply to default "
+"slider."
+msgstr ""
+
+#: admin/options.php:1667
+msgid "Fade Animation"
+msgstr ""
+
+#: admin/options.php:1667
+msgid "Slide Animation"
+msgstr ""
+
+#: admin/options.php:1672
+msgid "Slide Delay/Speed"
+msgstr ""
+
+#: admin/options.php:1674
+msgid ""
+"Set the time a slide will be displayed for (in ms) before animating to the "
+"next one."
+msgstr ""
+
+#: admin/options.php:1680
+msgid "Animation Speed"
+msgstr ""
+
+#: admin/options.php:1682
+msgid "Set the speed of animations in miliseconds. A valid number is required."
+msgstr ""
+
+#: admin/options.php:1690
+msgid "Right Side Posts Grid (Default Slider only)"
+msgstr ""
+
+#: admin/options.php:1699
+msgid "Show from a Category?"
+msgstr ""
+
+#: admin/options.php:1701
+msgid ""
+"<strong>WARNING:</strong> If you limit by category, posts marked as featured "
+"will no longer be used for this area. Latest posts from this category will "
+"be displayed."
+msgstr ""
+
+#: admin/options.php:1704 blocks/page-builder/latest-gallery.php:71
+msgid "Not Limited"
+msgstr ""
+
+#: admin/options.php:1713
+msgid "Show Posts by a Tag?"
+msgstr ""
+
+#: admin/options.php:1715
+msgid ""
+"<strong>WARNING:</strong> If you limit by tag, posts marked as featured will "
+"no longer be used for this area. Only used it show by category is set to "
+"None."
+msgstr ""
+
+#: admin/options.php:1726 admin/options.php:1738
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/options.php:1739
+msgid ""
+"Custom CSS will be added at end of all other customizations and thus can be "
+"used to overwrite rules. Less chances of specificity wars."
+msgstr ""
+
+#: admin/options.php:1747
+msgid "Output Method"
+msgstr ""
+
+#: admin/options.php:1748
+msgid ""
+"On-page is better for performance unless your Custom CSS is too large. If "
+"you are experiencing problem with a cache plugin or your Custom CSS is "
+"large, use external method."
+msgstr ""
+
+#: admin/options.php:1751
+msgid "On-page (For few lines of Custom CSS)"
+msgstr ""
+
+#: admin/options.php:1752
+msgid "External (For a lot of Custom CSS)"
+msgstr ""
+
+#: admin/options.php:1764
+msgid "Backup & Restore"
+msgstr ""
+
+#: admin/options.php:1773
+msgid "Backup / Export"
+msgstr ""
+
+#: admin/options.php:1774
+msgid ""
+"This allows you to create a backup of your options and settings. Please "
+"note, it will not backup anything else."
+msgstr ""
+
+#: admin/options.php:1776
+msgid "Download Backup"
+msgstr ""
+
+#: admin/options.php:1780
+msgid "Restore / Import"
+msgstr ""
+
+#: admin/options.php:1781
+msgid ""
+"<strong>It will override your current settings!</strong> Please make sure to "
+"select a valid backup file."
+msgstr ""
+
+#: admin/options.php:1795
+msgid "Sample Import"
+msgstr ""
+
+#: admin/options.php:1801
+msgid "Import Sample Content"
+msgstr ""
+
+#: admin/options.php:1802
+msgid ""
+"Import sample content from SmartMag official demo site. It may take "
+"<strong>1-2</strong> minutes to complete.\n"
+"\t\t\t\t\t<strong>WARNING: Only use on an empty site and make sure you have "
+"enabled recommended plugins first! Existing widgets will NOT be deleted but "
+"it is a good idea to remove them.</strong>\n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: admin/options.php:1809
+msgid "Select Demo"
+msgstr ""
+
+#: admin/options.php:1813
+msgid "Default Demo"
+msgstr ""
+
+#: admin/options.php:1813
+msgid "Tech Demo"
+msgstr ""
+
+#: admin/options.php:1818
+msgid "Images & Media"
+msgstr ""
+
+#: admin/options.php:1822
+msgid "Skip images & media"
+msgstr ""
+
+#: admin/options.php:1822
+msgid "Import random images"
+msgstr ""
+
+#: admin/options.php:1826
+msgid "Start Import"
+msgstr ""
+
+#: admin/options.php:1832
+msgid "Import Sample Data"
+msgstr ""
+
+#: admin/options.php:1833
+msgid ""
+"WARNING: Do not use this on site with existing content. Enable Bunyad "
+"plugins before importing. Do you really wish to import sample data?"
+msgstr ""
+
+#: admin/template-options.php:13
+msgid "SmartMag Settings"
+msgstr ""
+
+#: admin/template-options.php:18 admin/template-options.php:110
+msgid "Save Settings"
+msgstr ""
+
+#: admin/template-options.php:22
+msgid "Reset All Settings"
+msgstr ""
+
+#: admin/template-options.php:23
+msgid "Do you really wish to reset your options to default?"
+msgstr ""
+
+#: admin/template-options.php:49
+msgid "Options saved!"
+msgstr ""
+
+#: admin/template-options.php:51
+msgid "Options reset to defaults."
+msgstr ""
+
+#: admin/template-options.php:54
+msgid "Errors:"
+msgstr ""
+
+#: blocks/page-builder/blog.php:13
+msgid "Blog/Listing Block"
+msgstr ""
+
+#: blocks/page-builder/blog.php:14
+msgid "Used for category style listing - ex. a blog view. Supports pagination."
+msgstr ""
+
+#: blocks/page-builder/blog.php:44 blocks/page-builder/focus-grid.php:44
+#: blocks/page-builder/highlights.php:63 blocks/page-builder/news-focus.php:44
+msgid "Number of Posts:"
+msgstr ""
+
+#: blocks/page-builder/blog.php:47 blocks/page-builder/focus-grid.php:47
+#: blocks/page-builder/news-focus.php:47
+msgid ""
+"Configures posts to show for each listing. Leave empty to use theme default "
+"number of posts."
+msgstr ""
+
+#: blocks/page-builder/blog.php:50 blocks/page-builder/focus-grid.php:50
+#: blocks/page-builder/highlights.php:70 blocks/page-builder/news-focus.php:50
+msgid "Sort By:"
+msgstr ""
+
+#: blocks/page-builder/blog.php:52 blocks/page-builder/focus-grid.php:52
+#: blocks/page-builder/highlights.php:72 blocks/page-builder/news-focus.php:52
+msgid "Published Date"
+msgstr ""
+
+#: blocks/page-builder/blog.php:53 blocks/page-builder/focus-grid.php:53
+#: blocks/page-builder/highlights.php:73 blocks/page-builder/news-focus.php:53
+msgid "Modified Date"
+msgstr ""
+
+#: blocks/page-builder/blog.php:54 blocks/page-builder/focus-grid.php:54
+#: blocks/page-builder/highlights.php:74 blocks/page-builder/news-focus.php:54
+msgid "Random"
+msgstr ""
+
+#: blocks/page-builder/blog.php:58 blocks/page-builder/focus-grid.php:58
+#: blocks/page-builder/highlights.php:78 blocks/page-builder/news-focus.php:58
+msgid "Latest First - Descending"
+msgstr ""
+
+#: blocks/page-builder/blog.php:59 blocks/page-builder/focus-grid.php:59
+#: blocks/page-builder/highlights.php:79 blocks/page-builder/news-focus.php:59
+msgid "Oldest First - Ascending"
+msgstr ""
+
+#: blocks/page-builder/blog.php:64
+msgid "Listing Style:"
+msgstr ""
+
+#: blocks/page-builder/blog.php:79
+msgid "Check docs and demo to choose the right style."
+msgstr ""
+
+#: blocks/page-builder/blog.php:82
+msgid "Main Category: (Optional)"
+msgstr ""
+
+#: blocks/page-builder/blog.php:84
+msgid "-- None --"
+msgstr ""
+
+#: blocks/page-builder/blog.php:87
+msgid ""
+"Posts will be limited to this category and category color will be used for "
+"heading."
+msgstr ""
+
+#: blocks/page-builder/blog.php:91
+msgid "Heading: (Optional)"
+msgstr ""
+
+#: blocks/page-builder/blog.php:94
+msgid "Optional heading."
+msgstr ""
+
+#: blocks/page-builder/blog.php:97 blocks/page-builder/highlights.php:93
+#: blocks/page-builder/news-focus.php:104
+msgid "Heading Style:"
+msgstr ""
+
+#: blocks/page-builder/blog.php:99 blocks/page-builder/news-focus.php:108
+msgid "Block Section Heading Style"
+msgstr ""
+
+#: blocks/page-builder/blog.php:100
+msgid "Page Heading Style"
+msgstr ""
+
+#: blocks/page-builder/blog.php:103
+msgid ""
+"Page heading style is normal heading style used for pages. Block section "
+"heading style is what you would see often on \n"
+"\t\thomepage with multiple sections."
+msgstr ""
+
+#: blocks/page-builder/blog.php:107 blocks/page-builder/focus-grid.php:76
+msgid "Show Category Overlays?"
+msgstr ""
+
+#: blocks/page-builder/blog.php:109 blocks/page-builder/focus-grid.php:79
+#: lib/admin/option-renderer.php:171
+msgid "Yes"
+msgstr ""
+
+#: blocks/page-builder/blog.php:110 blocks/page-builder/focus-grid.php:78
+#: lib/admin/option-renderer.php:171
+msgid "No"
+msgstr ""
+
+#: blocks/page-builder/blog.php:115
+msgid "Pagination:"
+msgstr ""
+
+#: blocks/page-builder/blog.php:118
+msgid "Enabled"
+msgstr ""
+
+#: blocks/page-builder/blog.php:124
+msgid "Pagination Type:"
+msgstr ""
+
+#: blocks/page-builder/blog.php:130
+msgid ""
+"WARNING: Infinite Scroll will only work for the last block on a page. "
+"Infinite scroll loads more posts as user scrolls."
+msgstr ""
+
+#: blocks/page-builder/blog.php:133
+msgid "Limit Categories:"
+msgstr ""
+
+#: blocks/page-builder/blog.php:146
+msgid ""
+"By default, all categories will be used. Tick categories to limit to a "
+"specific category or categories."
+msgstr ""
+
+#: blocks/page-builder/blog.php:149
+msgid "or Limit with Tags: (optional)"
+msgstr ""
+
+#: blocks/page-builder/blog.php:153 blocks/page-builder/focus-grid.php:109
+#: blocks/page-builder/news-focus.php:101
+msgid "Separate tags with comma. e.g. cooking,sports"
+msgstr ""
+
+#: blocks/page-builder/blog.php:156 blocks/page-builder/focus-grid.php:112
+#: blocks/page-builder/highlights.php:119
+#: blocks/page-builder/highlights.php:144
+#: blocks/page-builder/highlights.php:170
+#: blocks/page-builder/news-focus.php:114
+msgid "Offset: (Advanced)"
+msgstr ""
+
+#: blocks/page-builder/blog.php:159 blocks/page-builder/focus-grid.php:115
+#: blocks/page-builder/highlights.php:122
+#: blocks/page-builder/highlights.php:147
+#: blocks/page-builder/highlights.php:173
+#: blocks/page-builder/news-focus.php:117
+msgid ""
+"By specifying an offset as 10 (for example), you can ignore 10 posts in the "
+"results."
+msgstr ""
+
+#: blocks/page-builder/blog.php:162 blocks/page-builder/focus-grid.php:119
+#: blocks/page-builder/highlights.php:178
+#: blocks/page-builder/latest-gallery.php:82
+#: blocks/page-builder/news-focus.php:121
+msgid "Post Types: (Advanced)"
+msgstr ""
+
+#: blocks/page-builder/blog.php:165 blocks/page-builder/focus-grid.php:122
+#: blocks/page-builder/latest-gallery.php:85
+#: blocks/page-builder/news-focus.php:124
+msgid ""
+"Only for advanced users! You can use a custom post type here - multiples "
+"supported when separated by comma. Leave empty to use the default format."
+msgstr ""
+
+#: blocks/page-builder/focus-grid.php:13
+msgid "Focus Grid Block"
+msgstr ""
+
+#: blocks/page-builder/focus-grid.php:14 blocks/page-builder/news-focus.php:14
+msgid ""
+"A block that lists news from a parent categories, making the latest one "
+"prominent, and have tabs for sub-categories."
+msgstr ""
+
+#: blocks/page-builder/focus-grid.php:64 blocks/page-builder/news-focus.php:64
+msgid "Highlighted Post(s):"
+msgstr ""
+
+#: blocks/page-builder/focus-grid.php:67 blocks/page-builder/news-focus.php:67
+msgid ""
+"Highlighted posts are displayed larger at left. If you have more than 10 "
+"posts, we recommend using 2 highlighted posts."
+msgstr ""
+
+#: blocks/page-builder/focus-grid.php:70 blocks/page-builder/news-focus.php:70
+msgid "Parent Category:"
+msgstr ""
+
+#: blocks/page-builder/focus-grid.php:72
+#: blocks/page-builder/highlights.php:108
+#: blocks/page-builder/highlights.php:133
+#: blocks/page-builder/highlights.php:159
+#: blocks/page-builder/news-focus.php:72
+msgid "-- None - Use a Tag --"
+msgstr ""
+
+#: blocks/page-builder/focus-grid.php:84 blocks/page-builder/news-focus.php:76
+msgid "or Parent Tag: (optional) "
+msgstr ""
+
+#: blocks/page-builder/focus-grid.php:87 blocks/page-builder/news-focus.php:79
+msgid ""
+"You can enter a tag if you wish to show posts from a tag instead. Leave "
+"empty if you selected a category."
+msgstr ""
+
+#: blocks/page-builder/focus-grid.php:90 blocks/page-builder/news-focus.php:82
+msgid "Sub Categories:"
+msgstr ""
+
+#: blocks/page-builder/focus-grid.php:103
+#: blocks/page-builder/news-focus.php:95
+msgid ""
+"News Focus blocks displays sub-categories as tabs. Select any sub-category "
+"you wish to display."
+msgstr ""
+
+#: blocks/page-builder/focus-grid.php:106
+#: blocks/page-builder/news-focus.php:98
+msgid "or Sub Tag: (optional) "
+msgstr ""
+
+#: blocks/page-builder/highlights.php:13
+msgid "Highlights Block"
+msgstr ""
+
+#: blocks/page-builder/highlights.php:14
+msgid ""
+"A 2 or 3 column block to highlight the latest post and show more posts from "
+"2 or 3 categories."
+msgstr ""
+
+#: blocks/page-builder/highlights.php:60
+msgid "Important:"
+msgstr ""
+
+#: blocks/page-builder/highlights.php:60
+msgid "Select 2 categories for 2 columns and 3 categories for 3 columns."
+msgstr ""
+
+#: blocks/page-builder/highlights.php:66
+msgid ""
+"Configures posts to show in each column. Leave empty to use theme default "
+"number of posts."
+msgstr ""
+
+#: blocks/page-builder/highlights.php:84
+msgid "Columns:"
+msgstr ""
+
+#: blocks/page-builder/highlights.php:87
+msgid "2 Columns"
+msgstr ""
+
+#: blocks/page-builder/highlights.php:88
+msgid "3 Columns"
+msgstr ""
+
+#: blocks/page-builder/highlights.php:96
+msgid "Auto: Overlay for 2 Column - Block Heading for 3 Columns"
+msgstr ""
+
+#: blocks/page-builder/highlights.php:97
+#: blocks/page-builder/news-focus.php:109
+msgid "No Heading"
+msgstr ""
+
+#: blocks/page-builder/highlights.php:104
+msgid "First Column"
+msgstr ""
+
+#: blocks/page-builder/highlights.php:106
+#: blocks/page-builder/highlights.php:131
+#: blocks/page-builder/highlights.php:157
+msgid "Category"
+msgstr ""
+
+#: blocks/page-builder/highlights.php:111
+#: blocks/page-builder/highlights.php:136
+#: blocks/page-builder/highlights.php:162
+msgid "or Enter a Tag:"
+msgstr ""
+
+#: blocks/page-builder/highlights.php:114
+#: blocks/page-builder/highlights.php:139
+#: blocks/page-builder/highlights.php:165
+msgid "Custom Heading (optional)"
+msgstr ""
+
+#: blocks/page-builder/highlights.php:129
+msgid "Second Column"
+msgstr ""
+
+#: blocks/page-builder/highlights.php:155
+msgid "Third Column"
+msgstr ""
+
+#: blocks/page-builder/highlights.php:181
+msgid ""
+"Only for advanced users! You can use a custom post type here - multiples "
+"supported when separated by comma. Leave empty to use the default format. ."
+msgstr ""
+
+#: blocks/page-builder/latest-gallery.php:13
+msgid "Latest Gallery Carousel"
+msgstr ""
+
+#: blocks/page-builder/latest-gallery.php:14
+msgid "Show latest videos or galleries in a carousel."
+msgstr ""
+
+#: blocks/page-builder/latest-gallery.php:45
+msgid "Title:"
+msgstr ""
+
+#: blocks/page-builder/latest-gallery.php:50
+msgid "Number of Media:"
+msgstr ""
+
+#: blocks/page-builder/latest-gallery.php:53
+msgid " Leave empty to use theme default number of posts."
+msgstr ""
+
+#: blocks/page-builder/latest-gallery.php:56
+msgid "Type of Media:"
+msgstr ""
+
+#: blocks/page-builder/latest-gallery.php:59
+msgid "Videos"
+msgstr ""
+
+#: blocks/page-builder/latest-gallery.php:60
+msgid "Audio"
+msgstr ""
+
+#: blocks/page-builder/latest-gallery.php:61
+msgid "Gallery"
+msgstr ""
+
+#: blocks/page-builder/latest-gallery.php:62
+msgid "All Post Formats"
+msgstr ""
+
+#: blocks/page-builder/latest-gallery.php:65
+msgid ""
+"Corresponds to \"post format\". e.g. videos would use posts marked as video "
+"format."
+msgstr ""
+
+#: blocks/page-builder/latest-gallery.php:69
+msgid "Limit to Category:"
+msgstr ""
+
+#: blocks/page-builder/latest-gallery.php:76
+msgid "or Limit by Tags: (optional) "
+msgstr ""
+
+#: blocks/page-builder/latest-gallery.php:79
+msgid ""
+"You can use a single or multiple tags. Separate tags with comma. e.g. "
+"cooking,sports"
+msgstr ""
+
+#: blocks/page-builder/news-focus.php:13
+msgid "News Focus Block"
+msgstr ""
+
+#: blocks/page-builder/news-focus.php:107
+msgid "Block Heading With Filters"
+msgstr ""
+
+#: functions.php:66
+msgid "Post Options"
+msgstr ""
+
+#: functions.php:67
+msgid "Review"
+msgstr ""
+
+#: functions.php:68
+msgid "Page Options"
+msgstr ""
+
+#: functions.php:85
+msgid "Latest Posts"
+msgstr ""
+
+#: functions.php:86
+msgid "Flickr Images"
+msgstr ""
+
+#: functions.php:87
+msgid "Advertisement"
+msgstr ""
+
+#: functions.php:88
+msgid "Latest Reviews"
+msgstr ""
+
+#: functions.php:270
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:271
+msgid "Main Navigation - Mobile Optional"
+msgstr ""
+
+#: functions.php:475
+msgid "Widgets in this area will be shown in the default sidebar."
+msgstr ""
+
+#: functions.php:483
+msgid "Top Bar (Above Header)"
+msgstr ""
+
+#: functions.php:485
+msgid "Please place only a single widget. Preferably a text widget."
+msgstr ""
+
+#: functions.php:495
+msgid "Header Right"
+msgstr ""
+
+#: functions.php:497
+msgid "Please place only a single widget. Preferably text-widget."
+msgstr ""
+
+#: functions.php:507
+msgid "Footer (3 widgets columns)"
+msgstr ""
+
+#: functions.php:509
+msgid "Widgets in this area will be shown in the footer. Max 3 widgets."
+msgstr ""
+
+#: functions.php:519
+msgid "Lower Footer"
+msgstr ""
+
+#: functions.php:521
+msgid "Prefer simple text widgets here."
+msgstr ""
+
+#: functions.php:634
+msgid "Quote - Modern"
+msgstr ""
+
+#: functions.php:641
+msgid "Citation (for quote)"
+msgstr ""
+
+#: functions.php:646
+msgid "Quote Left - Modern"
+msgstr ""
+
+#: functions.php:653
+msgid "Quote Right - Modern"
+msgstr ""
+
+#: functions.php:1083
+msgid "Theme - "
+msgstr ""
+
+#: inc/admin.php:167
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/admin.php:168
+msgid "Google+ URL"
+msgstr ""
+
+#: inc/admin.php:169
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/admin.php:170
+msgid "LinkedIn URL"
+msgstr ""
+
+#: inc/navigation.php:38
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/navigation.php:44
+msgid "Category Mega Menu (Subcats, Featured & Recent)"
+msgstr ""
+
+#: inc/navigation.php:45
+msgid "Mega Menu for Links"
+msgstr ""
+
+#: lib/admin/importer.php:68
+msgid "Import Completed!"
+msgstr ""
+
+#: lib/admin/importer.php:69
+msgid "Your import has been completed successfully. Have fun!"
+msgstr ""
+
+#: lib/admin/importer.php:72
+msgid ""
+"<strong>REMINDER:</strong> For correct thumbnails, install the plugin "
+"\"Regenerate Thumbnails\" and run it from Tools > Regen. Thumbnails."
+msgstr ""
+
+#: lib/admin/importer.php:77
+msgid "Import Failed!"
+msgstr ""
+
+#: lib/admin/importer.php:79
+msgid ""
+"Sorry but your import failed. Most likely, it cannot work with your webhost. "
+"You will have to ask your webhost to increase your PHP max_execution_time "
+"(or any other webserver timeout to at least 300 secs) and memory_limit (to "
+"at least 196M) temporarily."
+msgstr ""
+
+#: lib/admin/option-renderer.php:295
+msgid "Repeat Horizontal and Vertical - Pattern"
+msgstr ""
+
+#: lib/admin/option-renderer.php:296
+msgid "Fully Cover Background - Photo"
+msgstr ""
+
+#: lib/admin/option-renderer.php:297
+msgid "Repeat Horizontal"
+msgstr ""
+
+#: lib/admin/option-renderer.php:298
+msgid "Repeat Vertical"
+msgstr ""
+
+#: lib/admin/option-renderer.php:299
+msgid "No Repeat"
+msgstr ""
+
+#: lib/admin/option-renderer.php:304 lib/admin/option-renderer.php:400
+msgid "Remove"
+msgstr ""
+
+#: lib/admin/option-renderer.php:351
+msgid "Add More"
+msgstr ""
+
+#: lib/admin/option-renderer.php:450
+msgid "Suggested Fonts"
+msgstr ""
+
+#: lib/admin/option-renderer.php:453
+msgid "Google Fonts"
+msgstr ""
+
+#: lib/admin/option-renderer.php:454
+msgid "System Fonts"
+msgstr ""
+
+#: lib/admin/option-renderer.php:467
+msgid "Typekit Fonts"
+msgstr ""
+
+#: lib/admin/options.php:36
+msgid "Theme Settings"
+msgstr ""
+
+#: lib/admin/options.php:359
+msgid ""
+"Could not import options. Are you sure the uploaded file was a valid backup "
+"file?"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "SmartMag"
+msgstr ""
+
+#. #-#-#-#-#  bunyad-admin.pot (SmartMag 2.6.1)  #-#-#-#-#
+#. Theme URI of the plugin/theme
+#. #-#-#-#-#  bunyad-admin.pot (SmartMag 2.6.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://theme-sphere.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Designed by <a href=\"http://theme-sphere.com\">ThemeSphere</a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeSphere"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Authors List"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Homepage & Blocks (Advanced)"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Sitemap"
+msgstr ""
